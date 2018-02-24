@@ -1,0 +1,11 @@
+for p in $(cat sh.txt)
+do
+cat <<EOF
+
+<audio controls preload="none" style=" width:100px;">
+	<source src="$p" type="audio/mpeg">
+	Your browser does not support the audio element.
+</audio><br />
+EOF
+
+done
