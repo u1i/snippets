@@ -1,3 +1,9 @@
+# Summary
+
+Uli Hitzel drives innovation at the intersection of AI, technology, and human connection. Through writing, teaching, and ecosystem building, he empowers individuals and industries to thrive in a rapidly changing world.
+
+# Bio
+
 Uli Hitzel is a digital technologist passionate about artificial intelligence, automation, and emerging technologies. He helps established companies at crucial growth stages to build and lead cross-functional teams tasked with driving innovation and business transformation.
 
 Uli has worked on high-impact AI projects involving transitions to new eras of digital manufacturing, leveraging artificial intelligence and digital twins to improve processes and outcomes. He has experience helping companies integrate cutting-edge technologies, hire and empower talented professionals, build collaborative ecosystems, and quickly adapt to changing environments.

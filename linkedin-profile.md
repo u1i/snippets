@@ -1,5 +1,9 @@
 # Uli Hitzel
 
+**Tags**
+
+AI Technologist | Ecosystem Builder | Author | Educator 
+
 **Contact**  
 - Email: uli.hitzel@gmail.com  
 - LinkedIn: [uhitzel](https://www.linkedin.com/in/uhitzel)  
