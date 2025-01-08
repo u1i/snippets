@@ -1433,4 +1433,62 @@ Here's my personal LinkedIn wrapped, with a playful twist. Hope it makes you smi
 
 --
 
+Don't allow one single, free tool to become your single point of productivity failure. [screenshot of ChatGPT outage]
 
+---
+
+I feel exactly like this now — after a long, and meaningful day at this gorgeous venue in Singapore where we brought people together in the real world to talk about AI for Humanity.
+
+A great opportunity for Electric Minds to get involved with Erina, Rex and Balaji attending.
+
+Thanks James Siok Siok Tan Harish Philippe Tianyu Bjorn Cheryl Paulo and everyone attending! [photo of a big stuffed teddy bear sitting at a cozy hotel lobby]
+
+---
+
+"Training" and "finetuning" an AI language model sounds unnecessarily technical and complex. Let me put it simply: the key word in "LLM" is LANGUAGE, so quite often all you need to do is clearly communicate what you want in plain words.
+
+One of my best practices is to work directly with the LLM in conversation mode - talking, collaborating, and asking it to evaluate its own responses. Then comes the really meta part (and yes, I know this sounds wild): I ask it to write its own prompt!
+
+---
+
+One of my first AI generated art pieces from December 2021, "Christmas in Singapore". Early days of text-to-image. [image of an early text-to-image generation]
+
+---
+
+Many of you have asked — the Full Stack Development with AI course from National University of Singapore is now live! I'm covering two modules and will do office hours as well. Want to learn something new in 2025? Maybe this is for you!
+
+---
+
+"LLMs are just predicting the next word."
+
+LLMs are simply regurgitating sentences they've seen in their training data."
+
+After years of intensive research, I will tell you these simplistic explanations are not doing justice to the remarkable complexity and sophistication of these systems. Yes – they operate through statistical pattern recognition, but their ability to synthesize information, identify patterns, and generate novel insights goes far beyond mere word prediction or data regurgitation.
+
+Large language models (best for this: GPT-4 and Claude 3 Opus) can be programmed like a Wurlitzer cinema organ, where you use words (extensive system prompts, in plain English: lots of words!) to create some sort of temporary cognitive structure that can produce ideas, concepts, and analogies that are genuinely fresh. They can be just exceptional at finding patterns in our cultural matrix measuring billions of dimensions, and you won't find those outputs in books or on the web anywhere. If you know how to guide these LLMs, they can generate remarkable insights that transcend their training data.
+
+You do not have to understand what's going on inside a language model or what vectors are. But if you're good with words, you can create extraordinary stuff with them!
+
+---
+
+Running LLMs at home on an M4 32 GB Mac Mini – LLama 3.2 3B, IBM Granite 3.1 8B, Google's Gemma2 7B, Mistral 7B are super smooth on that thing, even with detailed prompts. The days of cloud-only AI are gone! [photo of a new M4 Mac mini next to a miniature christmas tree]
+
+---
+
+What would I have looked like in the 1920s, a century ago?
+
+I'm using the days between Christmas and the New Year to develop materials for an upcoming AI course at National University of Singapore, where I teach image generation, prompting, fine-tuning techniques, and the emerging domain of agentic AI. For this, I've trained a fine-tuned image model on my photos, so I can create all kinds of photos of myself in different time periods and contexts – and use this in class. [AI generated photo of Uli]
+
+---
+
+Join us for AI Coffee in Singapore next week — how many of the LLMs that "dropped" in 2024 are still intact? How many times has "the game been changed"? And, most of all, how do we create real positive impact for individuals, companies, and our global society with AI? See you there!
+
+Electric Minds Daphne Rex
+
+---
+
+Generative AI? No, it's the real world — you just have to go outside and see it! This is Joo Chiat/Katong, my beautiful neighborhood in Singapore early in the morning on a weekend. [photo of Katong shop houses]
+
+---
+
+I'm excited to work with The HEINEKEN Company on their new GenAI Lab in Singapore — and the team is looking for interns to build cool stuff together. If you're passionate about AI, have experience with GenAI, know Python, and want to contribute to a global company's transformation, let's talk! See job descriptions in comments.
