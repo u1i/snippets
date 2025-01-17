@@ -76,6 +76,12 @@ Background: Data & AI Solutions Consultant, Microsoft, ex Google Cloud, ex DBS,
 
 Covering: Chief Strategist, Applied AI for Social Good. With a proven background in AI transformation for enterprises, I am delighted to have the opportunity to serve as a freelance Chief Strategist for Applied AI for Social Good with Electric Minds.
 
+## Asha Hemrajani 
+
+Background: Senior Research Fellow, RSIS. Senior Fellow at the Centre of Excellence in National Security. Research areas include cybersecurity, AI and telecommunications.
+
+Covering: AI Security, Safety and Governance
+
 ---
 
 At Electric Minds, we look at solving some of the world's toughest problems through collective effort. As a non-profit, our mission is to make AI accessible to all by fostering collaboration and innovation.
