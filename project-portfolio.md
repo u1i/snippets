@@ -36,6 +36,122 @@ Advanced Manufacturing / Battery Production
 
 ---
 
+# eCommerce Platform Expansion
+
+Led technical transformation for French fashion unicorn's Asia expansion, implementing AI-powered features for rapid market entry.**
+
+## Industry/Sector
+Fashion Retail / eCommerce
+
+## Context & Challenge
+- Softbank-backed French fashion unicorn
+- 6-month timeline for South Korea launch
+- Complex localization requirements
+- Need for AI-powered features
+- Technical adaptation challenges
+
+## Scope & Solution
+- AI-assisted code generation
+- AI-powered translations
+- Unicode transformation
+- Local payment system integration
+- API infrastructure development
+- Platform localization framework
+
+## Role & Contributions
+- Led technical team for market entry
+- Designed AI-assisted development approach
+- Oversaw platform localization
+- Managed integration with local systems
+- Established development frameworks
+
+## Outcomes & Impact
+- Successful launch within timeline
+- Seamless local system integration
+- Efficient multi-language handling
+- Scalable expansion framework
+- Enhanced development efficiency
+
+---
+
+# Open Banking Platform
+
+Developed comprehensive API-based open banking solution adaptable to various global standards, created by distributed team across Europe, Asia, Australia, and US
+
+## Industry/Sector
+Financial Services / Banking
+
+## Context & Challenge
+- Need for flexible open banking solution
+- Multiple global standards requiring support
+- Geographically distributed development teams
+- Complex regulatory landscape
+- Foundation needed for future AI banking capabilities
+
+## Scope & Solution
+- Development of comprehensive open banking platform
+- API adaptors for multiple global standards
+- Modular architecture for flexibility
+- "Solution-in-a-box" approach
+- Future-proofing for AI integration
+- Global deployment capability
+
+## Role & Contributions
+- Led global development effort
+- Architected modular solution framework
+- Managed distributed teams across regions
+- Designed API standards compliance
+- Established development processes
+
+## Outcomes & Impact
+- Successful product deployment worldwide
+- Strong adoption in US and emerging markets
+- Scalable platform for future AI integration
+- Enhanced banking connectivity capabilities
+- Reduced implementation complexity
+
+---
+
+# Healthcare Digital Infrastructure
+
+Led development of critical digital infrastructure for Singapore's largest private healthcare provider's COVID-19 response, enabling vaccination and testing management through API-first architecture.
+
+## Industry/Sector
+Healthcare / Public Health
+
+## Context & Challenge
+- Largest private healthcare provider in Singapore
+- Need for rapid COVID-19 response infrastructure
+- Complex stakeholder ecosystem
+- Integration requirements with travel platforms
+- Real-time data access needs for decision makers
+
+## Scope & Solution
+- Comprehensive vaccination/testing management platform
+- AI-powered chatbots for executive decision support
+- API-first architecture enabling integration with:
+  - Agoda
+  - Booking.com
+  - Singapore Airlines
+- QR code-based access control system
+- Real-time data analytics dashboard
+
+## Role & Contributions
+- Led technical infrastructure development
+- Designed API integration framework
+- Implemented AI-assisted decision support
+- Managed stakeholder relationships
+- Oversaw security implementation
+
+## Outcomes & Impact
+- Successful nationwide deployment
+- Seamless integration with major travel platforms
+- Enhanced executive decision-making capabilities
+- Streamlined vaccination/testing processes
+- Improved public health response efficiency
+
+---
+
 # Real Estate AI Analytics
 
 Transformed traditional real estate planning into data-driven decision making for major Middle Eastern development project, working with public sector and leading consulting firms.
@@ -190,6 +306,90 @@ Chemical Manufacturing / Industrial
 - Enhanced internal capabilities
 - Improved decision-making process
 - Strategic initiative prioritization
+
+---
+
+# Mobile Assistant MVP
+
+Developed and published sophisticated hands-free mobile assistant enabling natural conversation and proactive engagement for road users.
+
+## Industry/Sector
+Mobile Applications / Personal Assistant
+
+## Context & Challenge
+- Need for hands-free communication solution
+- Complex proactive engagement requirements
+- Multi-platform message handling needs
+- Natural conversation flow requirements
+- Continuous connection management
+
+## Scope & Solution
+- Hands-free natural conversation system
+- Multi-platform integration:
+  - WhatsApp
+  - SMS
+  - Email
+- Proactive engagement features
+- Context-aware responses
+- Intelligent conversation management
+- Connection persistence handling
+
+## Role & Contributions
+- Led backend AI development
+- Designed conversation flows
+- Implemented LLM integration
+- Managed API connections
+- Oversaw MVP deployment
+- Developed persistence strategies
+
+## Outcomes & Impact
+- Successfully published in app stores
+- Innovative proactive engagement model
+- Seamless multi-platform integration
+- Natural conversation capabilities
+- Positive user feedback
+- Proven technical feasibility
+
+---
+
+# Startup Investment Platform
+
+Created a prototype for an AI-powered platform matching startups with investors, featuring sophisticated analysis and improvement recommendations for startup pitches.**
+
+## Industry/Sector
+Financial Technology / Investment
+
+## Context & Challenge
+- Inefficient startup-investor matching process
+- Need for objective startup evaluation
+- Complex assessment requirements
+- Information completion challenges
+- Startup improvement needs
+
+## Scope & Solution
+- AI-powered pitch deck analysis
+- Completion verification system
+- Multi-factor startup scoring:
+  - Value proposition strength
+  - Team composition
+  - Market impact
+  - Previous successes
+- Investor matching based on criteria
+- Startup improvement recommendations
+
+## Role & Contributions
+- Designed AI evaluation system
+- Developed scoring algorithms
+- Implemented feedback loops
+- Managed prototype development
+- Created assessment frameworks
+
+## Outcomes & Impact
+- Enhanced matching efficiency
+- Improved evaluation quality
+- Clear startup improvement paths
+- Objective assessment capability
+- Streamlined investment process
 
 ---
 
@@ -542,3 +742,125 @@ Strategic blueprint delivered with:
 - Cost reduction estimates
 - Risk mitigation strategies
 - Foundation for multi-year transformation
+
+# # Strategic Tech Insourcing
+
+Led strategic initiative for major MNC to insource critical technology component, achieving 60% cost reduction while enhancing control over essential capabilities.
+
+## Industry/Sector
+Enterprise Technology
+
+## Context & Challenge
+- Large multinational company dependent on third-party vendor
+- High ongoing implementation and maintenance costs
+- Strategic need to bring critical capability in-house
+- Complex transition requirements
+- Need for detailed capability assessment
+
+## Scope & Solution
+- Comprehensive platform assessment covering:
+  - Technical capabilities
+  - Vendor tasks and responsibilities
+  - Support processes
+  - Continuous improvement practices
+- Detailed interaction model analysis
+- Cost-benefit analysis
+- Transition strategy development
+- Capability building roadmap
+
+## Role & Contributions
+- Led transition strategy development
+- Conducted detailed platform assessment
+- Analyzed vendor responsibilities
+- Created business case
+- Designed transition approach
+- Mapped capability requirements
+
+## Outcomes & Impact
+- 60% cost reduction achieved
+- Enhanced control over critical capabilities
+- Improved process efficiency
+- Clear transition roadmap
+- Stronger strategic position
+
+# Airline Data Sync Automation
+
+Developed automated data interchange solution achieving 95% synchronization automation for airline sensor data, addressing complex database synchronization challenges.
+
+## Industry/Sector
+Aviation / Technology
+
+## Context & Challenge
+- Complex data synchronization between aircraft and ground systems
+- Different database types across systems
+- Intermittent satellite connectivity
+- Many manual processes
+- High operational overhead
+- Critical reliability requirements
+
+## Scope & Solution
+- Automated data interchange system
+- Handling of intermittent connectivity
+- Cross-database synchronization
+- Error recovery mechanisms
+- Performance monitoring
+- Process automation framework
+
+## Role & Contributions
+- Led system design
+- Developed automation framework
+- Managed implementation
+- Created reliability measures
+- Oversaw performance optimization
+- Guided testing process
+
+## Outcomes & Impact
+- 95% automation of sync processes
+- Met airline reliability standards
+- Significantly reduced manual intervention
+- Improved operational efficiency
+- Enhanced data reliability
+- Scalable solution foundation
+
+# Global FMCG AI Strategy
+
+Established global generative AI lab and use case prioritization framework for major FMCG company, transforming fragmented initiatives into coordinated strategy.
+
+## Industry/Sector
+Consumer Goods
+
+## Context & Challenge
+- Multiple siloed AI initiatives across organization
+- Direct business-vendor relationships causing fragmentation
+- Lack of visibility and coordination
+- Limited adoption and impact
+- Need for harmonized approach
+
+## Scope & Solution
+- Global generative AI lab establishment
+- Custom tool development for:
+  - Use case capture
+  - Structuring
+  - Categorization
+  - Scoring
+  - Clustering
+  - Visualization
+  - Prioritization
+- RAG system trained on analyst reports
+- Coordination framework development
+
+## Role & Contributions
+- Led senior leadership collaboration
+- Guided knowledge integration
+- Oversaw tool development
+- Managed upskilling programs
+- Built partner relationships
+- Drove collaboration initiatives
+
+## Outcomes & Impact
+- Unified AI strategy established
+- Enhanced project visibility
+- Improved resource allocation
+- Clear priorities identified
+- Stronger ecosystem alignment
+- Foundation for targeted growth
