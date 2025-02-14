@@ -39,11 +39,6 @@ Driving successful AI adoption across enterprises and startups, bridging innovat
 2021 - Present (3 years)  
 AI and data-driven use cases that help solve some of the most challenging problems we face as a global society today. Money is not the motivator — impact is.
 
-### Yopa.AI
-**Co-Founder & Chief Geek**  
-2024 - Present (less than a year)  
-Still stealthy. Stay tuned!
-
 ### Start2 Group
 **Startup Mentor**  
 2024 - Present (less than a year)  

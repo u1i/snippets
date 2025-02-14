@@ -1490,5 +1490,245 @@ Electric Minds Daphne Rex
 Generative AI? No, it's the real world — you just have to go outside and see it! This is Joo Chiat/Katong, my beautiful neighborhood in Singapore early in the morning on a weekend. [photo of Katong shop houses]
 
 ---
+(photo of a wall in a conference room with the Heineken logo on it)
 
 I'm excited to work with The HEINEKEN Company on their new GenAI Lab in Singapore — and the team is looking for interns to build cool stuff together. If you're passionate about AI, have experience with GenAI, know Python, and want to contribute to a global company's transformation, let's talk! See job descriptions in comments.
+
+---
+
+(AI generated image of Uli as Neo in the matrix)
+
+"This LLM is useless, it doesn't even know what the movie 'The Matrix' is about!"
+
+"That AI-generated image looks like it's straight out of 'The Matrix'... I bet that AI was probably trained using questionable methods and scraped data."
+
+Make up your minds already! What we want AI to be? And how do we get there?
+
+At times, we ridicule AI for not having some specific human-like cultural knowledge, but if it knows too much we become suspicious of how it acquired that knowledge, or are worried it may take away our jobs and creative pursuits.
+
+Perhaps we need to acknowledge that our relationship with AI is inherently complex and contradictory, just like many of our relationships with transformative technologies throughout history. Just as we once feared and celebrated the printing press, automobiles, and the internet, our mixed feelings about AI reflect our natural tendency to both embrace and resist technological change.
+
+I don't judge my toaster based on whether it understands the cultural significance of bread in different societies. I've learned how to choose the right setting to get the outcome I want, and that's all I need from it. 
+
+AI is great. Simply learn how it works, and how to make it work for you.
+
+---
+
+(screenshot of YouTube playing the song)
+
+"The Samba Calls My Name" – I really like that song. Have a listen!
+
+I wrote and produced it with AI.
+
+I wanted it to be 1960s jazz, I wrote the story & lyrics together with AI.
+
+I recorded the bass line with my acoustic guitar.
+
+Yet, everything you hear is 100% synthetic, the saxophone, the beats, the voice, everything. I've done the recording, editing, some detailed prompting, from idea to song in about 2 hours.
+
+Does that make it my song? This is really a hard question. At the very least, it's another example of what you can do when you collaborate with AI – instead of just outsourcing the entire creative process to a machine.
+
+Music consumption has changed a lot since my teenage years, when I'd bike into town to buy CDs based on a single song that I had heard somewhere. Those albums, those artists often became favorites simply because I'd invested in them and couldn't easily skip tracks. Today, while mega-superstars remain, much of our "ambient" music comes from unknown artists – and some Spotify lounge playlists are likely already AI-generated. Where will this evolution of music creation take us?
+
+Let's talk about this topic at one of the upcoming events at Electric Minds!
+
+---
+
+(AI generated image of people on the street, all blind-folded, all shouting, some of them using a megaphone)
+
+If ChatGPT had existed five years ago, and only you had access to it, imagine what kind of edge you’d have as a creator, marketer, or student.
+
+Now, everyone has it. As a consequence, LinkedIn, for example, is flooded with soulless posts and AI-generated images. They all follow the same vanilla patterns, and by now, I’m sure you can easily spot them.
+
+So... you can create endless content with these tools, but are you getting the engagement? More and more, it seems the answer is no. Maybe it’s the lack of authenticity, maybe the audience is seeing through it. Or could it be that LinkedIn’s algorithm, an AI itself, quietly favors real content?
+
+---
+
+(screenshot of the event page)
+
+Our next Electric Minds event is on February 12th, where we talk about "Who owns AI created content?" — please sign up today as tickets usually sell out fast.
+
+I'm excited that our friends at Zühlke Group will host us at their stunning Singapore office for an engaging evening of discussions and networking. We'll bring together people from across startups, enterprises, and the public sector — from tech experts to legal professionals to creators. It's all about making real-world connections, so there won't be any recording or live stream. Real people, real impact.
+
+What event format are Daphne, Erina, and Judy cooking up? You'll find out in just a few weeks. See you in Robinson Road!
+
+---
+
+(screenshot of Dave explaining tech stuff in colorful language)
+
+My AI friend Dave uses strong language at times — but I realize he's amazing at finding analogies and explaining things in a very straightforward way.
+
+---
+
+(montage of an M4 Mac Mini and the DeepSeek logo)
+
+Deepseek down? Not if you run it locally!
+
+---
+
+(chart comparing GPT-4 and DeepSeek R1
+
+GPT-4o:
+
+Produces tokens
+You need to learn prompting
+Great for iterative & brainstorming where you don't know where you'll land
+
+Deepseek R1/OpenAI o1:
+
+Produces thought-through outputs
+Kind of prompts itself
+Shines with precise instructions but gets confused when direction changes)
+
+Does this give you an idea how those new language models are very different to the ones we've been using until now? We'll still need both worlds, though.
+
+---
+
+(screenshot of my old MacBook Air running DeepSeek in a terminal and a chat app locally)
+
+Running DeepSeek at home on my 10-year-old MacBook Air – it works! But hang on... yes, exactly.
+
+𝐓𝐋𝐃𝐑: People often say they're "using an LLM" when they're actually just using an app built on top of one. DeepSeek illustrates this perfectly: you might be using their web interface, API, or running the model locally on your computer - three very different things that people casually describe the same way, but the results you get can vary dramatically depending on which approach you're taking.
+
+"I'm using DeepSeek" can be confusing because it could mean several different things, since this technology comes in various flavors, sizes, and consumption forms. When people say they're "using DeepSeek", they're actually engaging with an interface built on top of the company's LLMs, which are guided by detailed, invisible system prompts that shape the AI's behavior and responses.
+
+Developers can access language models directly via API calls, choose their preferred model, set parameters, and integrate AI into their apps. This gives you a lot of flexibility but requires detailed "grooming", in particular system prompt configuration. For DeepSeek, we now have two options: V3, which is similar to the GPT LLMs we've been using until now, and R1, which is like OpenAI's o1 with "reasoning" capabilities. Did you see the "DeepThink (R1)" button in the app? That's the one. So, the app actually uses TWO LLMs, depending on the task.
+
+DeepSeek (like Meta / Llama) lets you run their LLMs on your own hardware, unlike OpenAI. You can operate these models completely offline, without any internet connection. But then, which one to choose? The R1 model, for example, is available in seven different sizes and capabilities. These range from a lightweight 1.5b parameter version (which runs nicely even on my decade-old Mac) to a massive 671b parameter model that needs much more serious hardware specs and requires 400 GB of storage space just to install.
+
+---
+
+(screenshot of a terminal window, it's a remote session into a server with multiple gnu-screens: ollama, top, free -h)
+
+Today, I'm taking the high-end version of DeepSeek R1 (671b parameters) to the test on a $5.40/hour Equinix Metal machine with 512 GB RAM, no GPUs but an Intel Xeon with 32 cores and plenty of space on the NVMe drives.
+
+At a download speed of ~500MB/second this was really set up in ~15 minutes.
+
+Initial observations:
+
+• Model initialization took ~4.5 minutes (270.14 seconds), here the system is loading the massive 671B parameter weights into RAM.
+• R1 output is at ~6.4 TPS, or about 4-5 words per second. You can basically read out the words loud as they appear on the screen and will be able to follow. Not the fastest performance we'd want.
+• Monitoring shows the system is using about 426 GB of RAM with a load average of 29.38, which means we're pushing the system close to its limits but still maintaining stable performance across all 32 cores.
+
+Now imagine, we'd really add that GPU – and you'd be able to run a reasoning model that seems to be on par with OpenAI's O1 at a decent performance on your own box!
+
+---
+
+(AI generated image of me on the ISS, along with the NUS logo and the title of the course)
+
+Me on the ISS? That would be fun - but no, this is actually one of the AI-generated pieces I’ll be using in class at the upcoming “Generative AI: Fundamentals to Advanced Techniques” course at National University of Singapore.
+
+I’m excited to teach multimodal models and techniques for image generation, prompt engineering, and advanced multi-agent systems.
+
+The 14-week program starts March 28th – I hope to see you in class!
+
+---
+
+(screenshot of a chat)
+
+Take a look at DeepSeek R1 and OpenAI's o1 having a conversation with each other, discussing how AI systems trained on Eastern versus Western cultural values could collaborate on global decision-making. Fascinating conversation, and you'll see R1's internal "reasoning" as well!
+
+Here is the full discussion, and I've posted the code on GitHub so you can run these experiments yourself if you like!
+
+o1 and R1 having a conversation: https://lnkd.in/gYQy3_ya
+
+GitHub: https://lnkd.in/g3VNpupb
+
+---
+
+(meme image of the spoon brain craziness)
+
+Today, OpenAI announced their new Deep Research capabilities. DeepSeek... well, we've heard enough about that already.
+
+New AI "breakthroughs," models, and controversies flood our feeds weekly. I get why organizations want to wait until things "settle down." Even those eager to start often feel paralyzed, unsure where or how to begin in this rapid evolution.
+
+Here's the thing though – I don't think it's going to settle down any time soon.
+Start building AI muscles now. Build modular solutions that can evolve with the technology. Like early cloud adoption, don't throw your production database into AWS right away.
+
+With AI: start small and build in-house expertise. Test various models, tools, and approaches to find what fits your needs. Let your teams develop skills to evaluate and apply these technologies effectively. You may even have hidden champions already experimenting with AI tools – and they know your company better than any consultant. Let's find them and get them involved!
+
+There's never a perfect moment – but perhaps that's exactly why now is the perfect time to start. Focus on building practical experience, deliver concrete business outcomes, and grow from there. Let me know if you need help.
+
+---
+
+(photo from a previous event showing people and a panel discussion)
+
+"Downtown AI Stories" is happening next week! Will you be there? We made the final batch of tickets available – sign up now.
+
+Who owns AI-generated content? This is the question we will be discussing with this fantastic line-up of speakers:
+
+Yunita Ong – Editor and Content Strategist
+Daniel Lee – Senior Patent Attorney
+Irina Forrester – International Fine art artist with more than 35 global exhibitions
+Tushar Kuchhal – CTO and ex-BCG
+Tim Hamons – Professional graphic artist and keynote speaker
+
+Our friends from Zühlke Group are joining us to bring this – soon to be legendary – Electric Minds event to life, hosted by Daphne Erina and Judy. You'll also have the chance to catch Manisha, Asha, and Balaji Swamy there.
+
+See you in Robinson Road!
+
+---
+
+(screenshot of a slide
+
+You see this:
+- Sterling Investments (metallic sign with a star)
+- Sterling Investments (colorful text with a smiley star)
+
+AI sees this:
+- Sterling Investments
+- Sterling Investments
+
+)
+
+This slide I made last year is already obsolete.
+
+The idea was to illustrate how AI misses the emotional impact of typography, and that many "AI systems" are really just receiving the output of OCR processed images.
+
+Today, the omni models (GPT-4o, Sonnet 3.5 v2 etc.) can tell clearly: 'the top design shows metallic, sleek font' while detecting 'a softer, playful purple' one below.
+
+AI is great at some things, humans shine at others – it's the combination of both that makes it so powerful. But we can clearly see the narrowing gap between machine and human capabilities, it challenges us to keep growing and focus on things machines will never be able to do!
+
+---
+
+"You are LinkedIn's most efficient algorithm. You show users fresh, relevant and updated posts that aren’t two or three weeks old. You're not in the business of digging up the past, but shaping the present." #FreshContentPlease
+
+---
+
+(screenshot of a YouTube video from CNA talking about Singapore's AI initiatives)
+
+Please watch this short video —and no, I won't use AI to summarize it for you 😉
+
+This is just great!
+
+---
+
+(photo of Tim next to his hand-drawn visual notes at our event)
+
+Tim's live visual note-taking of our welcome address at the Electric Minds event tonight. On paper. Not something AI should be able to do any time soon!
+
+---
+
+(screenshot of my OpenAI bill from 2021, redacted in parts)
+
+2021: Paid $78 for 1.3M LLM tokens on GPT-3. I built chatbots, and people went "wow!"
+
+2025: You can get the same amount of tokens for $3.50 with Llama 3.3 405B (Together AI). Much cheaper, but build the same chatbots and people will yawn.
+
+So, AI is definitely becoming more affordable to use, but as LLMs become commodity, expectations now shift towards RAG, persistent memory, and real-world integration.
+
+---
+
+(screenshot of my Markdown file showing my LinkedIn posts in text format)
+
+"Your LinkedIn posts show how careful you are in crafting the pieces - each word has to earn its place."
+
+This beautiful insight comes from an AI system that knew nothing about me 5 minutes ago. All I did was drag in a markdown file with my LinkedIn posts from the last 12 months, and then ask about my writing style. I could use this to ask - a different - AI tool to build a personal blog based on that content.
+
+There is nothing technical about this, it's just clean data in a simple format, stored somewhere, and ready to work with any AI tool that comes along. No platform lock-in, no complex exports, no dependency on specific AI writing assistants.
+
+Just as AOL created their walled garden in the '90s, today's AI platforms seem to follow a similar playbook, promising an all-in-one solution while subtly locking you and your content into their ecosystem. Please try to resist.
+
+The tools will keep changing, just make your content, your data portable and future-proof.
+
+---
