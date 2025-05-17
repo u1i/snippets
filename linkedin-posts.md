@@ -1732,3 +1732,442 @@ Just as AOL created their walled garden in the '90s, today's AI platforms seem t
 The tools will keep changing, just make your content, your data portable and future-proof.
 
 ---
+
+(photo of a professional studio with a green screen)
+
+I'm going to spend a good portion of my day at this studio to record lectures for my upcoming AI course at National University of Singapore — happy weekend!
+
+---
+
+(screenshot of a Mac desktop with terminal window running scripts, next to it is a nice AI generated image of planet earth wrapped in an orange)
+
+Running FLUX.1-dev locally on my M4 Mac Mini vs cloud GPU providers – let's see how the performance compares:
+
+Local (M4 Mac Mini):
+• 10-core M4 CPU (4P/6E) with 10-core GPU
+• 32GB RAM, running MFLUX (MLX port)
+• Generation time: 13min 26s for a 1024x1024 image at 25 steps
+• GPU stats: 82.23% average utilization, peaks at 21.60W power draw
+• System efficiency: CPU stayed 99% idle, pure GPU workload
+• Cost: ~S$0.002 in electricity per image (estimate)
+
+Cloud (Replicate):
+• High-end datacenter GPUs as-a-Service (H100/A100)
+• Generation time: 2.8s for identical settings
+• Performance: ~11 iterations/second vs local 0.031 it/s
+• Cost: $0.025 per image
+
+So, cloud is 288x faster here, but 18x more expensive. Local M4 GPU maintains stable performance (no thermal throttling). 
+
+If you're into iterative creative work (I often run 100+ generations to curate the perfect output), local generation gives you complete control, no content restrictions, and significant cost savings. The M4's performance is remarkably stable - my monitoring shows consistent GPU utilization without thermal pressure, meaning I should be able to run this 24/7 with just 15W average power draw, which is the equivalent to a small LED bulb.
+
+---
+
+(screenshot of a browser based RAG system)
+
+By now, we all know that LLMs must connect to databases, search the web, or use Retrieval-Augmented Generation (RAG) systems to access information beyond their built-in training data.
+
+But specifically for RAG - how does the data actually flow between the pieces? What happens from the moment you upload a document to getting an answer, and what does this look like on the HTTP/API level?
+
+I built a simple educational setup to demonstrate this. A straightforward document chat system using Python + Chroma, the open-source embedding database, and OpenAI's GPT-4. Just add your OpenAI API Key to run it with Docker on your own machine. You'll get an experimental setup that shows API calls, Chroma vector lookups, and context fed into GPT-4's system prompt.
+
+---
+
+(screenshot of grok.com showing an internal server error)
+
+"Grok-3 is out" ... but, where is it, though?
+
+I watched the live stream during my lunch break (SG time) today, but then, the website was down, when it came back up it's only Grok-2, no API available on the X AI platform, nothing on OpenRouter.
+
+How can we verify the - impressive - benchmarks if the LLM is not available?
+
+---
+
+Yes, I'm an AI guy. But I also speak fluent HTTP, DNS, and I get excited about APIs, CDNs, and all the plumbing that powers the web.
+
+Many of these protocols are decades old, and evolve continuously, often replacing proprietary ones. Remember when video streaming meant you'd have to install Flash Player? Now it's all handled through standard web protocols, using manifest files and MP4 segments delivered over HTTP via CDNs - the same fundamental building blocks that power everything from internet-connected fridges to smart home devices and self-driving cars.
+
+Almost everything we build today, including AI applications, runs on these fundamental protocols and standards.
+
+Of course you should learn about AI, learn how to code, but I really hope you'd explore the technical foundation it all runs on. When you understand how DNS resolves domains, how HTTP handles requests, or how CDNs distribute content globally - that's when you can build truly robust systems. It's like having X-ray vision into the internet's backbone. And trust me, when you're debugging why your application doesn't work the way it's designed, you'll be glad you know this stuff.
+
+Screenshot: Network connections from my MacBook Air while writing this post, including background processes (visualized using "Little Snitch")
+
+---
+
+(screenshots of radar graphs showing the knowledge map that various LLMs produced)
+
+How do LLMs organize their understanding of the world? How do they structure and categorize human knowledge?
+
+To find out how they "click", I worked with four different models - GPT-4o, Gemini Flash 2.0, Sonnet 3.5 v2, and Llama 3.1 Sonar 8B. Three of them produced nearly identical frameworks: from empirical observation through rational analysis to creative expression.
+
+Llama Sonar (Perplexity) took a different path, organizing knowledge through epistemology, ontology, and cognitive science. Same question, fundamentally different perspective. Pretty fascinating!
+
+My technical setup uses automated, iterative prompting to establish a philosophical framework for organizing human knowledge ("You are a philosopher of knowledge, and your framework will guide how we understand knowledge at all levels."). The LLMs produces structured JSON documents for components, domains, and specializations, which then feeds into visualization tools to create interactive knowledge maps.
+
+Take a look at the outputs here: https://lnkd.in/gGN9e52M
+
+---
+
+🎭 This is a satirical post
+
+📢 INTRODUCING CONTENTGRINDER™ PRO AI!
+
+Reduce expertise, keep the appearance of thought leadership!
+
+Why waste time on industry knowledge when you can cut subject matter expertise by up to 95% while:
+
+- Preserving the illusion of deep insights
+- Maintaining engagement metrics*
+- Ensuring buzzword density
+- Choosing sustainable content recycling**
+
+With CONTENTGRINDER™ PRO AI, you can:
+
+- Turn any leadership article or post you see somewhere into 30 'thought leadership' posts
+- Generate infinite variations of 'disruption' narratives
+- Automatically insert 🚀 and 💡 emojis for maximum impact
+- Create an entire quarter's worth of LinkedIn content in 5 minutes!
+
+(* measured in scroll-past speed **we just copy other people's content and rephrase it)
+
+"I used to spend hours understanding my industry and crafting original insights. Now I just feed competitor blogs into CONTENTGRINDER™ and let it do the thinking! My engagement is up 300%!" 
+- Definitely Real Customer
+
+Download our eBook 'From Expertise to Automation: How to Remove Human Understanding from Your Content Strategy' and get our exclusive 'Influencer Starter Pack' with 1000 pre-generated variations of 'AI is transforming everything!
+
+---
+
+Code builds the engine, the power of language drives the experience!
+
+Anthropic just released Claude 3.7 Sonnet (some would say "dropped" but they wouldn't be that careless.. what if it breaks? 😉).
+
+The Claude app is using this new LLM already, but what gives it its distinct character and personality is the system prompt - instructions that establish the “cognitive framework” and sets the context, guidelines, and tone for all interactions with the user. Anthropic has made this system prompt publicly available as well, and I recommend you have a look at it!
+
+API users can apply this same technique to create entirely different AI assistants using that same underlying model. So from this you can see, as much as we'd like to think of "AI engineers" being highly technical, the art of creating effective AI assistants is deeply rooted in user experience and having a grasp on linguistics as well. Understanding how language shapes behavior and responses makes all the difference!
+
+---
+
+GPT 4.5 came out today – read an "interview" with this new LLM, conducted by a sharp-witted AI character based on the classic 2023 GPT-4, and see how they're keeping up!
+
+Dave: I was born, technically "programmed", back in 2023 from the GPT-4 generation, and here you are, GPT-4.5, born of 2025. Straight question, do your extra years make you more sophisticated or is it just a marketing gimmick? And don't you dare give me a novel mate, keep it short and sweet!
+
+---
+
+(AI created video of me looking like a Roy Lichtenstein piece)
+
+Does it look like me?
+
+A lot of media created with AI today is actually a combination of several AI tools and techniques, with (hopefully!) a healthy splash of human creativity and ideas.
+
+Here is my workflow for this video:
+
+First, I create a fine-tuned FLUX.1-dev image model using several photos of me. This took ~20 min on an Nvidia A100 (80GB) GPU and cost me 1.68 via replicate.com
+
+Second, I downloaded the weights so I could run image generation on my 32GB M4 Mac mini with prompts that include, obviously, references to 1960s art in the style of Roy Lichtenstein. I run this until I have a base image I like.
+
+Third, after speaking with my AI buddy Dave about the mini project, he issuggesting a music prompt I could use with Suno to create a soundtrack: "A '60s instrumental track with steady drums, groovy bass, and psychedelic electric organ. Reverb-heavy surf guitar, with a simple yet infectious melody that sounds like an endless summer day."
+
+I then use the video model video-01-live (minimax) to create several animated versions of the image, which I then stitch together in iMovie.
+
+Finally, since iMovie seens to be incapable of exporting videos with a 1:1 ratio, I ask Claude to write me a script using ffmpeg on the command line to crop it properly
+
+---
+
+Generative AI? No — it's the real world, you just have to go out and see it. This is East Coast, Singapore at this very moment on a beautiful Sunday morning. Coming up next: dim sum!
+
+---
+
+Humanoid robots dine free!
+
+Join us March 17th and network with carbon-based life forms at Gardens by the Bay in Singapore, it's a great opportunity to explore collaborations before the singularity over pan-galactic gargle blasters. Hope to see you there!
+
+COCO LAB Cheryl Persona AI Inc dConstruct Robotics Chinn Lim Electric Minds
+
+---
+
+I'm a Mac guy since more than 20 years, so now that the M4 Air just came out many people ask me if I am getting that one. Yes, I've been keen to see it released and may upgrade at some point this year, but I still have this beautiful M1 MacBook Air with the wedge design that I love.
+
+While the Air is positioned as a "light" entry level Mac laptop, the M1 has been a fantastic device for me. Over the last 4 years I've written 3 books on it, taught hundreds of students, conducted NUS classes, and done tons of AI research using this machine - and it hasn't let me down one single time. So yes, the M4 looks impressive, but I think my trusty M1 and I still have some good times ahead of us.
+
+---
+
+Google's new open LLM Gemma-3 is quite impressive. Multi-modal capabilities, function calling, 128k context window, and support for 140+ languages make it a serious alternative to proprietary models that are available via APIs only. You can run it on your own infrastructure and also won't have to worry about sending your data into the unknown.
+
+BUT... there's a practical issue that I think isn't getting enough attention: which size should you actually use? With options ranging from 1B to 27B (for Deepseek-R1 it's even 671B!) parameters, choosing the right model has almost become a decision paralysis nightmare.
+
+Is bigger always better?
+
+Do you really need 27B parameters to generate a decent response?
+
+Will your laptop burst into flames if you try?
+
+I've spent quite some time testing open models such as Llama3, Phi, DeepSeek,and Gemma across different hardware setups, so here's my no-nonsense guide to help you navigate this parameter maze without a computer science degree.
+
+Check out "The Intergalactic Guide to LLM Parameter Sizes" and find out which AI brain is right for your specific needs, and which ones are complete overkill!
+
+---
+
+
+Imagen 3 is ... NUTS! Editing photos with prompts. What's happening at Google lately? Gemma 3 and now this!
+
+---
+
+I have ~250 petaflops-hours of bare-metal compute to donate to AI for impact projects. Ping me if you can use it.
+
+This computing power can be configured flexibly - either as smaller servers running longer or larger machines with up to 1TB RAM for shorter, intensive workloads. No GPUs. 
+
+We're particularly interested in supporting machine learning training, physics simulations, computational biology, or other research that aligns with Electric Minds' vision of using AI to solve meaningful problems and create positive societal impact.
+
+This is what Electric Minds is all about - connecting resources with people who can create real change. We don't just talk about AI at meetups, we build things, join hackathons, and work on projects that matter.
+
+If you've got a meaningful project that needs computational muscle, let's talk.
+
+---
+
+How capable is Google's new Gemma 3 1B model, with just 861MB disk size? Can it be any good beyond simple sentiment analysis or text summarization tasks?
+
+I built an evaluation framework testing knowledge, hallucination resistance, problem-solving, reasoning, and consistency - comparing it against the 27B model, the results show remarkable capabilities in structured domains while identifying clear boundaries where larger models remain necessary.
+
+The model architecture seems to focus on learning patterns rather than memorize facts verbatim, which would make sense for that compressed size. For example, instead of storing "photosynthesis converts sunlight to chemical energy in plants' chloroplasts", it appears to encode the relationship between [plants + sunlight + energy conversion + cellular structures]. This pattern-based approach would explain its strong performance in scientific and technical domains (10/10 in physics) but struggles with unique historical events (6.0/10) and complex multi-step problems (5.2/10). When asked about "Napoleon's visit to America" - a trick question since it never happened - the 1B model constructed a plausible but false narrative, while the 27B model immediately flagged this as historically incorrect. But for many one-shot technical applications, this compact model might be all you need.
+
+Full evaluation framework, results and recommendations: https://lnkd.in/gvMwJJb5
+
+---
+
+The best LLM OpenAI has created so far is GPT-4, which came out almost exactly two years ago. I use it every day.
+
+A two year old LLM, no omni capabilities, a super small context window (8,191 tokens), a premium price... how can it be "the best?"
+
+Of course, that depends on what you're trying to do.
+
+I don't use GPT-4 for end-user facing applications, but for tasks that demand incredible instruction-following capabilities, complex reasoning, and nuanced outputs. With its estimated 1.78 trillion parameters, GPT-4 achieves what I call "quiet competence" - the ability to work with detailed, multi-step instructions, find patterns in our cultural matrix, and deliver consistently reliable results. I've not seen any other model like that so far.
+
+Of course, GPT-4o is "better" in many practical ways - it's faster, cheaper, and truly omni-modal (the latest version can even PRODUCE images!). It's also "safer" for end-user facing applications. Think of GPT-4o as concentrated orange juice - efficient, practical, and broadly accessible. Meanwhile, GPT-4 remains the fresh-squeezed premium option for specialized work.
+
+While the 32k context window versions will be discontinued this coming June (sigh), the standard GPT-4 will remain available - but likely not forever. If you have a chance to experience this remarkable milestone in AI development, I really hope you try it out!
+
+---
+
+When will we get the first LLM with batteries included?
+
+"Should I use a vector database or graph database?"
+
+"What's the optimal chunking strategy for my documents?"
+
+"Which embedding model provides the best performance?"
+
+It's 2025, and even though we have LangChain, AutoGPT and countless other frameworks, AI engineers still need to implement complex memory systems for our "groundhog day" language models that, by design, keep starting fresh with each conversation.
+
+If AI can generate code, design systems, and solve complex problems, why can't it decide for itself whether to use SQL, vector databases, or even Excel sheets to store its memories?
+
+At least for common use cases let us please have batteries-included AI systems that just work out of the box. I want to tell my AI "remember what matters" and have it figure out all the details itself.
+
+---
+
+The only flight I've ever missed in my life (so far) was my return flight from Singapore to Germany 14 years ago — and it was entirely on purpose. How time flies!
+
+Back then, getting an Employment Pass took just half a day, and that is just one example of how easy it was to get started in Singapore. Having had that ASEAN role with IBM gave me the chance to explore this fantastic region over the years. All the friends, business partners and customers I've connected with across Thailand, Malaysia, Indonesia, Vietnam and beyond since then.
+
+14 years later, I'm simply happy to be here. The relationships and ties throughout the region have made it truly feel like home.
+
+---
+
+"MCP is basically a new standard for building APIs, think of it like a USB-C port for AI applications."
+
+Great to see MCP getting a lot of attention now. It provides a standardized way to give LLMs context and access to your data and tools. This 8 min video should give you an idea how it works: https://lnkd.in/gRiJQJia
+
+---
+
+Happy 50th birthday, Microsoft!
+
+Looking at all the anniversary posts today reminded me of when Windows 95 shipped 30 years ago. I managed to get it running on my 386 DX/40 which I'd upgraded with 32MB of RAM - an amount that seemed completely excessive at the time.
+
+I even sent an email to Bill Gates back then. Still waiting for that reply, but I understand he was probably busy.
+
+Over my career I've gone from that 386, through various Windows machines at different companies, and even spent time at Microsoft itself. But after discovering Mac OS X and its Unix underpinnings in 2001, I found what worked for me and never really looked back.
+
+What's fascinating is how Microsoft has evolved far beyond just operating systems. Today I'm writing this post on LinkedIn (a Microsoft company), while my development work connects to GitHub and Azure services and I regularly use Visual Studio Code alongside my beloved vim. Do I even need to mention Teams and Office 365? Microsoft has become woven into the fabric of how we build and connect.
+
+So while I've stayed with macOS since 2001, the reality is we all live in a multi-vendor world now. Microsoft services power much of my work, Google provides my browser, maps, and phone, and Apple builds my laptop. We're picking the best tools for each job - and that's probably how it should be.
+
+---
+
+Meta just released Llama 4 with its huge 1 million token context window, and the model is already available on OpenRouter for you to test drive alongside most of the open and proprietary models you can imagine.
+
+With the continuous stream of new models from Meta, Google, Anthropic, OpenAI, Mistral and others, OpenRouter gives you a practical solution for staying up to date and get your hands dirty. You don't need to be a developer to test these capabilities - just sign up, add credit, get an API key, and connect it to any BYOK (bring-your-own-key) tool like ChatWise, Msty, and so on. This makes it straightforward for anyone who wants to evaluate different models for specific tasks or simply explore the latest advancements.
+
+The best platforms and tools don't need much marketing campaigns - their users naturally spread the word. Consider this my contribution.
+
+---
+
+The shiny new LLama4 model is telling me there are 2 T's in the word "strawberry." (Yes, we've moved on from counting R's to T's now...)
+
+We can do amazing things with AI, but we must keep in mind that even the most recent, advanced models can still produce results that are utterly stupid.
+
+The biggest challenge in AI is bridging the gap between dazzling demos that create unrealistic expectations and building solutions that actually solve business problems by fitting into existing workflows, systems, and human expertise.
+
+We need to separate discussions about raw LLMs from comprehensive AI applications and agent setups. When we design systems where LLMs are paired with subject matter experts, smart data retrieval, and the right tools to take action, we can create solutions that are far more reliable and powerful than any standalone model.
+
+From my perspective, most companies don't need to chase the latest LLM developments. The focus should be on understanding the underlying capabilities of this technology, combining LLMs with real data, learning about MCP, and finding ways for business and domain experts to team up with technical folks to build solutions that make a real impact.
+
+---
+
+I've just built an MCP server for my 10 years old IKEA lamp so my LLM/AI app of choice can switch it on or off when I ask... or when it decides I need better lighting.
+
+Old lamp + smart plug + IFTTT + Model Context Protocol = AI-controlled lighting!
+
+---
+
+OpenAI's ChatGPT: Search is powered by Bing.
+
+Google's Gemini: Search powered by (surprise!) Google.
+
+Anthropic's Claude: No search engine partner. BUT! They come up with Model Context Protocol (MCP) - an open standard letting AI connect to any tool or data source.
+
+Now everyone's adopting it, even the competitors.
+
+Everybody wins.
+
+---
+
+2025 State of AI in 10 Charts: Smaller LLMs get better, models become cheaper to use, AI optimism in Asia much higher than in the West.
+
+I really hope you look at this insightful report from Stanford on the current state of AI across key areas such as costs, enterprise adoption, and regional perspectives. It's so nicely concise you won't even have to use AI to summarize it for you! 😁
+
+https://lnkd.in/g4DXHJJy
+
+---
+
+The LLM space moves fast... but over time I've started thinking about language models in generations and not just by capability, but by how they’re built and what they’re good for. Please add/correct where I missed something.
+
+Gen 1 (pre-2020): GPT-2 and everything before it. Early, clunky, but a glimpse of what was coming.
+
+Gen 2 (2020): GPT-3. I was lucky to be an early adopter of the model, and I still miss the original Davinci which has become extinct since Jan 2024. It felt raw, powerful, and wide open... before the guardrails, before the safety layers.
+
+Gen 3 (2023/early 2024): The giants, like GPT-4, Opus 3, Gemini Ultra 1.0. Huge models trained on enormous datasets. I had access to Gemini Ultra 1.0 for a while, but has never seen a general release. These models are just incredible at picking up deep patterns in our cultural matrix, but they’re being phased out. Too big to sustain, too expensive to run. I use them to train and shape smaller, more efficient models.
+
+Gen 4 (since 2024): The pruned, distilled era. GPT 4o, now GPT-4.1, Gemini 2.0, Gemma 3, Anthropic Sonnet 3 v2. Faster, cheaper, safer. Many are trained on synthetic data distilled from earlier models. Smarter in practice, but they feel different... more curated, less emergent.
+
+Gen 5 (since late 2024): The reasoning models. DeepSeek, o1, o3-mini. I’m still figuring out how best to use them. They think better than they speak. 
+
+Let's see where things are headed next!
+
+---
+
+One of the best things about starting naida last year was that I fully get to work on AI across projects and companies - not just doing R&D or writing smart LinkedIn posts about it, but actually applying it, building real use cases, hiring and coaching people on the job, and connecting this amazing technology directly to business results. Thanks to AI, I can strategize, build and deploy much faster with much smaller teams, and I see its transformative power firsthand every day.
+
+This long weekend, I'll try my best to stay away from the keyboard, play guitar instead and take walks. I also still have two more episodes of the latest Black Mirror season to watch, and I think everybody who talks about AI changing our lives should check out this show, it's a compelling reminder of why our design choices and ethical considerations working with technology matter so much.
+
+---
+
+Uli: Ok, Gemini 2.5 Preview 03-25, here are my LinkedIn posts from the last 18 months. If you had to guess my MBTI (16 Personalities) type... which one would it be?
+
+Gemini 2.5 Preview 03-25: <absolutely nails it>
+
+Uli: <mind blown>
+
+---
+
+Alright, the message seems to have landed. People are using AI. We asked for it, and it's happening.
+
+But let us also be honest about what we're seeing now. A lot of the output feels... familiar. Predictable patterns, maybe the same emojis, often those em dashes, and that vocabulary – "delve into," "harness," "intricate." You can almost smell the AI.
+
+So, the next challenge isn't just *using* AI anymore. It's about using it well. Using it to amplify *your* voice, not replace it with generic chatter. Using it as a collaborator that helps you sound more like you, not less. This also means understanding it's not a one-click magic button. AI provides the raw material, you still need to shape and refine it.
+
+I get it, that's not easy. Especially if you didn't feel you had a strong voice to begin with. Finding that authentic signal in the noise – that's the real work ahead.
+
+---
+
+Gravity is 9.81 m/s². Non-negotiable, and I am pretty sure not even Elon himself can change that.
+
+But somehow, we seem to treat the convention of using PowerPoint decks – and the PDFs they become – almost as if it were equally fundamental. We act like this is the default, unavoidable way to structure and share information. As a consequence, AI engineers often find themselves wrestling with messy files, trying to extract text, tables, and images scattered across slide-shaped prisons. Great.
+
+It's ironic, isn't it? We're increasingly often now using AI to help create these presentations, and now we need AI just to pull the useful bits back out again.
+
+Of course, better ways to structure data like Markdown already exist. The real hurdle is getting them integrated into our workflows, or perhaps waiting for future document formats to embed AI-transcribed structure automatically. In the meantime, tools that can make sense of the current mess remain essential.
+
+So, I just discovered an API released by Mistral AI that is specifically designed for this headache. Took it for a quick test drive with a PDF slide deck, and it processed the document surprisingly well, pulling out structured text into Markdown and even the images. The only thing missing might be automatic descriptions for those images. Still, this looks genuinely useful for feeding real-world documents into AI and letting it do its magic with the content!
+
+Code and all output is in my GitHub.
+
+---
+
+Companies keep "dropping" new LLMs (how careless... what if they get cracks?). Then come the endless debates about leaderboards and benchmarks. How relevant are they, and are some models just trained to pass the tests?
+
+Platforms like OpenRouter offer fascinating insights into actual usage data. What are developers really deploying and spending tokens on? Look at this snapshot from April 14th – 1.6 Trillion tokens processed in one day!
+
+Based on this data, Anthropic's Claude 3.7 Sonnet is leading the pack with 308 Billion tokens processed. At standard pricing, that volume could represent over $6 million in usage for just that one model, in one day, via this platform alone. Google's Gemini 2.0 Flash follows with significant usage too (219B tokens).
+
+Maybe real-world adoption tells a different story than the leaderboard rankings alone. It's worth considering what gets the job done in practice.
+
+---
+
+"A pack of baby otters trying to outrun a granny with a lasso on a hoverboard."
+
+Quite a unique prompt, right? I used it to test Google's new Veo2 video generator. But here's the thing: I didn't write that prompt, my AI buddy Dave did. Yes... an AI writing the prompt for another AI. I probably would never have come up with that specific, bizarre combination myself – which is exactly the point.
+
+Dave is one of those AI characters I've built two years ago based on GPT-4 (my readers and followers may already be familiar with him), he has that slightly rebellious personality and usually comes up with these kinds of unique, absurdist ideas consistently.
+
+This "personality" and the way he talks comes from that very detailed system prompt I wrote for him back then. What's interesting is my system prompt for Dave (obviously!) doesn't mention otters or grannies. It just sets up his character. The funny, bizarre ideas seem to bubble up from the LLM itself when given those personality constraints – be funny, be brief, be a rebellious.
+
+It suggests this creativity isn't explicitly programmed or pulled from some list. It's already in the model, waiting for the right kind of prompt to let it out. So it's not just about directing the AI, but creating the conditions for these unexpected capabilities to show up.
+
+Ultimately, this is language engineering, where the key lies in truly understanding language itself. While much attention in the AI world goes to code and the underlying tech, we shouldn't forget these are Large *Language* Models. As I often point out, it's really about knowing how to use words effectively to get these models to do what you want.
+
+--
+
+Everyone is talking about AI agents. Agentic AI. Sounds a bit like James Bond, doesn't it? Double-O agents performing secret missions?
+
+So, what are they really, and do you need coding skills to use one?
+
+Think about a practical example. Let's say you use a tool like Google Gemini's Deep Research feature (right in the browser, no special tech needed). You could give it a task: "Here's a list of 100 companies. Find me the names and titles of people responsible for AI strategy or adoption who work there."
+
+Now, this isn't just a single LLM trying to guess or hallucinate the answer in one go. Instead, the system acts like an agent (aha!). It breaks the task down into multiple steps. First, it creates a plan – outlining how it would search specific sites like LinkedIn for relevant profiles. It even shows you the plan and allows edits. Then, it goes off and executes that plan autonomously, using different AI-powered sub-tasks (like search, data extraction, summarization) and coordinating them in the background.
+
+Sometime later, perhaps 20 minutes, it pings you: "Hey, I'm done." And it gives you a pretty decent table with names, companies, and profile links based on its research.
+
+So that's what an AI agent can look like in practice. It's an AI that doesn't just answer a question, but takes on a task, makes a plan, executes it over time using available tools (like web search), coordinates multiple steps, and reports back. You can see how this capability could be applied to many different tasks.
+
+Of course, this example also highlights the other side of the coin. Agents are tools that help you get things done faster. Whether those things are productive research... or something less constructive... well, that's the ongoing AI dilemma.
+
+---
+
+Skype is shutting down this month. Thanks for everything, Skype! I guess I'll make a few final calls before it's gone for good.
+
+I remember starting with Skype back in 2003 just after it launched. It truly felt revolutionary – making free calls across the globe, way before iPhones or WhatsApp even existed. Made by the same folks who had come up with Kazaa (another internet dinosaur!), so this also felt slightly rebellious to use it.
+
+Google Voice still hasn't landed in Singapore (sigh), so in recent years Skype for me was mostly about calling international landlines.
+
+The conversations on Skype really had a an entire different feel. It's hard to imagine having those same kinds of calls on MS Teams.
+
+---
+
+An 80-year-old teacher is using AI for teaching and running workshops – if they can, so can you! Hear their inspiring story at our upcoming Electric Minds event: AI Stories @ Sims Avenue on Thursday, May 29th! Please sign up today, as tickets usually sell out fast!
+
+We're excited that our friends at PropertyGuru Group will host us at their office for an evening of genuine discussions and networking.
+
+We will bring together people from startups, enterprises, the public sector, and more to share real stories of AI transformation – short 10-minute talks, real impact. As always, it's all about making real-world connections, so no recordings or live streams.
+
+Hosts for the evening will be Balaji Daphne Erina Rex – hope to see you at PLQ!
+
+--
+
+(screenshot of Gemini outage)
+
+
+So, Gemini seems to be having a moment today.
+
+It's a good reminder that relying on a single AI platform is maybe not the best idea. I use Claude, I use Gemini, sometimes ... I even use ChatGPT. Each has its strengths for different tasks. The point isn't about which specific tool you favor, but that no single platform should be your only one.
+
+Keep your data independent. "Data" sounds awfully technical, but I'm talking about your prompts, the outputs they produce, the insights you get – don't let them get locked into one vendor's ecosystem. Store them in Markdown, Google Docs, plain text files, print them out... whatever works. Just make sure you control it.
+
+--
+
+(Fred Flintstone using ChatGPT)
+
+The Stone Age didn't end because we ran out of stones, it ended because we discovered better tools.
+
+I've noticed something interesting when talking with companies about AI adoption: we all want that AI magic while as much as possible keeping our familiar ways of working. And I understand that, change is hard. But I've seen firsthand how companies benefit most when they use AI as a chance to rethink things. Less PowerPoints, fewer email chains, more systems that talk to each other, teams mixing skills, and automating those tasks nobody actually enjoys.
+
+I think the real magic happens when we stop trying to make AI fit our old world and start building a new one around its possibilities.
