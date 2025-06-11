@@ -141,3 +141,55 @@ Here is an idea we are discussing at [Electric Minds](https://www.linkedin.com/c
 Obviously, this "solution" cannot be just another app, and even though money rules the world, the motivation must be impact. This is going to take collaboration – governments, businesses, education. Can it be done?
 
 We don't have all the answers, and that's why it's so important to get together across industries to talk about this, build partnerships, and start to make things happen. Let's create targeted initiatives that apply these ideas!
+
+--
+
+*AI STORIES @ SIMS AVENUE**
+
+Thursday, May 29, 2025
+7:00 PM - 10:00 PM (Assumed end time based on previous events)
+
+PropertyGuru Office
+Paya Lebar, Singapore
+
+**About Event**
+Real People, Real Impact!
+
+Following the success of our previous events like **Katong AI Night, Orchard AI Stories, and Downtown AI Stories**[cite: 1], Electric Minds is excited to bring you the next edition of our unique, non-tech networking event – this time at PLQ, hosted with our venue partner, PropertyGuru!
+
+Join us for an evening dedicated to making real-world connections and hearing authentic stories. We'll feature a couple of compelling lightning talks (10 minutes each) where speakers share how AI has fundamentally transformed their companies or their personal lives. Think: before AI, now with AI. No "the possibilities are endless" – just real people sharing real stories.
+
+We're especially thrilled to feature a truly inspiring speaker: an 80-year-old teacher who is actively using AI to run workshops and teach. It’s a powerful reminder: if an 80-year-old can learn and leverage AI, so can you!
+
+**AI Stories @ Sims Avenue: What to expect**
+
+* **Lightning Talks:** Engage with a couple of compelling 10-minute talks. Speakers will share their personal or professional journeys, detailing how AI has brought tangible changes to their lives or work. Expect genuine narratives, not tech demos.
+* **Networking Opportunities:** Enjoy plenty of time to meet and connect with like-minded professionals from diverse backgrounds.
+* **Diverse Attendees:** Connect with an amazing mix of individuals from startups, big tech, media, venture builders, the public sector, and more.
+
+**What makes our events special**
+
+* A relaxed and welcoming atmosphere that encourages real conversations.
+* A unique format that prioritizes networking and real-world connections over technical presentations.
+* An opportunity to meet inspiring individuals and hear authentic stories about AI-driven transformation.
+
+**Why Attend?**
+Make meaningful connections and engage in inspiring discussions at our Sims Avenue event. Whether you're deeply involved in AI or simply looking to network and hear some incredible real-world stories (like how an 80-year-old is embracing AI!), join us for an evening that values genuine interactions. We're excited to see you there!
+
+**Location**
+PropertyGuru Office
+
+1 Paya Lebar Link, #12-01/04, Paya Lebar Quarter, PLQ, #1, Singapore 408533
+
+
+
+
+An 80-year-old teacher is using AI for teaching and running workshops – if they can, so can you!
+
+Hear their inspiring story at our upcoming Electric Minds event: AI Stories @ Sims Avenue** on Thursday, May 29th! Please sign up today, as tickets usually sell out fast!
+
+We're excited that our friends at PropertyGuru will host us at their office for an evening of genuine discussions and networking.
+
+We will bring together people from startups, enterprises, the public sector, and more to share real stories of AI transformation – short 10-minute talks, real impact. As always, it's all about making real-world connections, so no recordings or live streams.
+
+Hosts for the evening are Daphne Erina Balaji Rex
