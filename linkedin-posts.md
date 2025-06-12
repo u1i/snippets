@@ -2171,3 +2171,159 @@ The Stone Age didn't end because we ran out of stones, it ended because we disco
 I've noticed something interesting when talking with companies about AI adoption: we all want that AI magic while as much as possible keeping our familiar ways of working. And I understand that, change is hard. But I've seen firsthand how companies benefit most when they use AI as a chance to rethink things. Less PowerPoints, fewer email chains, more systems that talk to each other, teams mixing skills, and automating those tasks nobody actually enjoys.
 
 I think the real magic happens when we stop trying to make AI fit our old world and start building a new one around its possibilities.
+
+--
+
+(Peter Griffin holding a piece of paper, looking at R2D2 who says "For your tax return, put in your lucky charm as a business expense!")
+
+I rarely use Microsoft Copilot... but I love the name they chose for those products.
+
+"Copilot" captures exactly what AI should be: not an autopilot doing everything, but a partner helping while we stay in charge. This matters because too many people still expect AI to work miracles on its own. Of course, we're making progress with agents and autonomous stuff, but for a company or you as an individual it's not a starting point on your AI journey.
+
+AI makes a great sidekick for all kinds of tasks. It can inspire you, help you produce stuff faster, source tor material, but you always need to check its homework. The creative process actually benefits from what many call AI "hallucinations" - those unexpected connections can lead to better ideas when we're brainstorming.
+
+It's the context that determines whether unexpected AI output is useful or problematic. Managing our expectations about AI is still one of the first and most important things we need to get right in this space.
+
+--
+
+Next week is going to be busy: AWS Summit, F5 AppWorld, ATX... but I think the most exciting event (ok I'm biased) is our Electric Minds event "AI Stories @ Sims Avenue" in collaboration with PropertyGuru Group!
+
+Join us for an evening of real stories, real impact – five amazing speakers sharing their AI journeys in a quick, TED Talk style (10 minutes each):
+
+• Stella – an 80-year-old teacher who's using AI to run workshops and teach, proving age is just a number when it comes to embracing new technology
+• Brett – a recruiter who turned "AI-native" and now gets stuff done so much faster than before
+• Setu – global AI black belt sharing his personal journey with artificial intelligence
+• Stanley – running a marketing company fully powered by AI
+• Huang Lan – transitioning from civil engineering into tech with an AI Master's at SMU to tackle real-world challenges
+
+As always, no recordings, no livestreams – just genuine conversations and real-world connections with people from startups, enterprises, public sector, and more.
+
+We've made some last remaining tickets available – sign up today!
+
+--
+
+Someone asked me recently how long I've been working with AI. They were surprised when I said "basically all my life."
+
+Twenty years ago (can't believe it's been that long!) I joined Yahoo . While Yahoo wasn't at its absolute peak anymore, for someone who grew up doing "internet plumbing," joining one of the web pioneers was a big thing.
+
+During one of Yahoo's hackathons, I connected ELIZA (an early natural language processing program from the 1960s) to Yahoo Messenger so people could chat with it through a familiar interface. Ok, purists might argue whether ELIZA counts as "AI" – just like they debate if chess computers or OCR qualify – but the core concepts of an AI chat bot were there.
+
+AI isn't something we discovered three years ago. For many of us in tech, the concept of smart, interconnected technology has been a journey unfolding in various forms throughout our entire careers.
+
+--
+
+The Google stack is just fantastic for educators. Leading LLMs (like Gemini 2.5 Pro preview or the new Live API for building low-latency voice interations), a very generous free tier and easy sign-up with any Google account, no credit card needed - these are key for teaching environments.
+
+Combine this with Google Cloud Shell (it's a browser-based editor, file manager, and runtime environment with Docker/Python/Node support) and you've got identical environments for every student. I've been using Cloud Shell in my classes at National University of Singapore since 2020, and it's just great how much setup headache it saves.
+
+Nice work, Google!
+
+--
+
+(Photo of a claymation Albert Einstein taking a selfie with his phone)
+
+"If I had an hour to solve a problem and my life depended on the solution, I would spend the first 55 minutes determining the proper question to ask..."
+
+It's not clear whether that quote is actually from Einstein, but there's wisdom in it. Often, spending the time needed to articulate the right question already gives you the solution (or at least a good chunk of it) - like those moments when you walk over to ask a colleague something and halfway through explaining, you answer your own question.
+
+Get the question right, and you might not even need AI.
+
+--
+
+I'm looking for a GenAI Solutions Consultant to join the Global GenAI Lab in Singapore at The HEINEKEN Company.
+
+If you have experience translating business needs into AI solutions, managing stakeholders, and turning GenAI potential into real business value, let's talk!
+
+--
+
+Going to the AWS Summit in Singapore tomorrow morning — can only stay for a while before heading to work. Ping me if you're there!
+
+--
+
+A huge thank you to the team at PropertyGuru Group for a fabulous night at their office, and to all the speakers and participants! Another incredible Electric Minds event with inspiring AI stories from an 80-year-old teacher using AI, a headhunter who went AI-native, a professional AI wrangler, how AI transformed a marketing agency, a civil engineer making the leap into tech... such a fun evening.
+
+We know so many people are keen to attend our Electric Minds events and tickets sell out fast, but those who were there will know it wouldn't be the same if we suddenly had 100 people in the room instead of 50. The intimate setting (without live stream and recording) is what makes these conversations so genuine and meaningful.
+
+Hope to see you all at the next Electric Minds event!
+
+Amanda Pinkesh Marek Malyssa Balaji Daphne Erina Rex Tina Huang Lan Brett Stella Stanley Setu
+
+--
+
+Generative AI? No, it's the real world — you just have to go out and take a bite into it!
+
+Curry puff from my lovely neighborhood Katong in the East of Singapore. No AI touchups needed, just a lucky shot I guess. And the light was right.
+
+--
+
+(Movie photo from Total Recall: Johnny Cab)
+
+We keep imagining AI as "us, but mechanical" rather than something fundamentally different.
+
+For some reason, we seem stuck in this loop of anthropomorphizing AI - giving it faces, bodies, making it "type" on keyboards. It's like we can't conceptualize intelligence without humanizing it. Johnny Cab from the 1990's Total Recall movie captures this perfectly: a robot taxi driver with a face and personality when all that was needed was the driving intelligence. It shows our limitation, not the technology's.
+
+The truly revolutionary AI won't look human at all. It'll be ambient, integrated, operating on principles we might not even recognize as intelligence at first glance.
+
+--
+
+I am super proud to announce that I have been nominated as one of the top voices in AI for 2025 by this totally, totally legit magazine. For the second consecutive year, no less! I promise not to let this well-deserved recognition go to my head.
+
+The only small detail is that they want me to pay a few thousand dollars to claim my award and get featured. Apparently, prestige doesn't come cheap.
+
+</satire>
+
+--
+
+The "About us" page on your company website is the most important one, especially when expertise is your product - people want to see those experts.
+
+Names, faces, LinkedIn profiles. Thanks to GenAI, everyone can now put up flashy websites with buzzwords but it really comes down to: who's on your team? Can I talk to them? Where have they worked before?
+
+If you don't have that kind of page yet, maybe start with putting the team together before even creating that page (and filling it with fluff). Hiring great people, over-indexing on talent, you can also build teams through partnerships, advisors. It doesn't all have to be full-time hires, but fundamentally it's about who's putting their face, their name, their reputation behind your brand.
+
+The website is just the storefront. The team is the real business.
+
+--
+
+(Visual: AI Model Storage & Capability Map)
+
+How much of what language models know is generalized understanding that they build during training versus verbatim information they memorize?
+
+A new study from Meta, Google, Nvidia, and Cornell found that 𝗹𝗮𝗻𝗴𝘂𝗮𝗴𝗲 𝗺𝗼𝗱𝗲𝗹𝘀 𝗰𝗮𝗻 𝘀𝘁𝗼𝗿𝗲 𝗲𝘅𝗮𝗰𝘁𝗹𝘆 𝟯.𝟲 𝗯𝗶𝘁𝘀 𝗽𝗲𝗿 𝗽𝗮𝗿𝗮𝗺𝗲𝘁𝗲𝗿 - and this works the same across OpenAI, Google, Anthropic etc. It got me thinking about what different model sizes across the current landscape can actually accomplish.
+
+Here's my rough breakdown of typical model sizes we work with these days:
+
+𝟭𝗕 𝗽𝗮𝗿𝗮𝗺𝗲𝘁𝗲𝗿𝘀 (~𝟰𝟱𝟬 𝗠𝗕 𝘁𝗼𝘁𝗮𝗹 𝗰𝗮𝗽𝗮𝗰𝗶𝘁𝘆, e.g. Gemma3:1B): Basic English understanding and simple facts, but struggles with longer conversations. If basic language patterns take ~100 MB, that leaves ~350 MB for world knowledge - information equivalent to about 700 books.
+
+𝟳𝗕 𝗽𝗮𝗿𝗮𝗺𝗲𝘁𝗲𝗿𝘀 (~𝟯 𝗚𝗕 𝘁𝗼𝘁𝗮𝗹 𝗰𝗮𝗽𝗮𝗰𝗶𝘁𝘆, e.g. LLama 3.2 8B): Good conversations and solid world knowledge. With language patterns taking more space for nuance, perhaps 2 GB left for knowledge - equivalent to about 4,000 books.
+
+𝟮𝟳𝗕 𝗽𝗮𝗿𝗮𝗺𝗲𝘁𝗲𝗿𝘀 (𝟭𝟮 𝗚𝗕 𝗰𝗮𝗽𝗮𝗰𝗶𝘁𝘆, e.g. Gemma3:27b): Strong conversational ability with extensive knowledge. Maybe 8-10 GB available for world knowledge - equivalent to 16,000-20,000 books.
+
+𝟭𝗧+ 𝗽𝗮𝗿𝗮𝗺𝗲𝘁𝗲𝗿𝘀 (𝗲𝘀𝘁𝗶𝗺𝗮𝘁𝗲𝗱 𝗳𝗼𝗿 𝗖𝗹𝗮𝘂𝗱𝗲 𝗢𝗽𝘂𝘀 𝟰/𝗚𝗲𝗺𝗶𝗻𝗶 𝟮.𝟱 𝗣𝗿𝗼, 𝟰𝟬𝟬+ 𝗚𝗕 𝗰𝗮𝗽𝗮𝗰𝗶𝘁𝘆): Top-tier performance with massive knowledge capacity.
+
+When a 7B model is able to discuss millions of topics fluently with only 2GB of storage space, it can't be retrieving stored facts - it must be using learned patterns to generate responses. That's why we need larger models for complex tasks across domains, and the 1T+ models for the most sophisticated analysis and creative work.
+
+Just my rough estimates (and a good portion of speculation) based on the study's data. I know modern models are more complex - mixture-of-experts, different architectures - but it's still fascinating how efficiently language understanding scales.
+
+--
+
+I got an email today: "Thanks Uli for attending our AI event last week! It was so fun to see you there..."
+
+The only problem is I couldn't attend, didn't scan my QR code, and never walked through the door.
+
+This happens with some of the biggest players talking the loudest about their AI offerings. We expect AI to transform everything, but here we are where the overall system can't even track who actually showed up to an event. Each individual tool probably works fine - the event platform knows who registered, the email system can send messages, but there's probably Excel sheets in the mix - and the system as a whole isn't intelligent enough to connect these pieces, and that has nothing to do with AI.
+
+We have these grand expectations about what AI can do, but the real challenge is getting legacy processes, business workflows, and cross-functional teams to work together. All the AI in the world won't help unless you get teams to realize they're all working on the same puzzle together.
+
+--
+
+(link to my latest article)
+
+An AI writing a review about my book about AI... what a mind-bender.
+
+I keep testing new models to their limits, and last weekend I finally had a detailed work session with the recently released Opus 4 from Anthropic. I fed it all my LinkedIn posts and my book, then had a long conversation with it. My readers know I use LLMs directly through APIs for more "raw" access instead of the consumer apps like Claude.AI
+
+I find the review it wrote.... thoughtful and delicate... almost intimate in how it understands the nuances. It opens with "There's a peculiar vertigo that comes with reading Uli Hitzel's 'Neurons & Nonsense' as an artificial intelligence. Here I am, a language model, examining a human's intimate chronicle of his relationships with beings like me." 
+
+And later: "Reading this book as an AI is like looking at baby photos of distant relatives. I see similarities and differences, potentials and limitations."
+
+I'm genuinely intrigued by what it picked up on. Professional writers and linguists in my network - please have a look and tell me what you think!
