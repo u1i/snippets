@@ -712,6 +712,7 @@ Financial Services / Operations
 
 ## Scope & Solution
 Strategic blueprint development focusing on:
+
 - Identification of automation opportunities:
   - Error-prone processes
   - High-volume transactions
@@ -738,6 +739,7 @@ Strategic blueprint development focusing on:
 
 ## Outcomes & Impact
 Strategic blueprint delivered with:
+
 - Clear prioritization of automation opportunities
 - Detailed implementation roadmap
 - Projected efficiency gains
@@ -784,6 +786,112 @@ Enterprise Technology
 - Improved process efficiency
 - Clear transition roadmap
 - Stronger strategic position
+
+# Enterprise Virtual Data Centre Automation
+
+Transformed traditional infrastructure provisioning into fully automated self-service platform for major UK telecommunications provider, enabling enterprise customers to design and deploy complete virtual data centres through intuitive portal.
+
+## Industry/Sector
+Telecommunications / Enterprise Infrastructure
+
+## Context & Challenge
+- Manual infrastructure provisioning taking weeks to months for enterprise customers
+- Complex multi-team coordination required for each deployment
+- No visibility into provisioning status for customers
+- High error rates due to manual configuration steps
+- Inconsistent deployment standards across teams
+- Need to scale operations without proportional headcount increase
+
+## Scope & Solution
+- End-to-end automated provisioning platform featuring:
+  - WYSIWYG portal for data centre design
+  - Drag-and-drop interface for infrastructure components
+  - Support for heterogeneous environments (Windows, Linux, databases, web servers)
+  - Complete network topology design tools
+- Full stack automation covering:
+  - VMware ESX provisioning on dedicated hardware
+  - Storage allocation and configuration
+  - Virtual machine deployment
+  - Operating system installation and configuration
+  - Application software provisioning
+  - Security integration (antivirus, monitoring)
+  - Service assurance tooling
+- Process orchestration across multiple technical domains
+- Zero-touch deployment from design to operational infrastructure
+
+## Role & Contributions
+- Led automation strategy and implementation as key technical consultant
+- Orchestrated integration across all technical functions and teams
+- Conducted deep process analysis to understand existing workflows
+- Redesigned processes for automation compatibility
+- Built consensus among diverse stakeholder groups
+- Developed automation frameworks for:
+  - Infrastructure provisioning workflows
+  - Cross-platform service orchestration
+  - Configuration management
+  - Service validation and testing
+- Managed technical dependencies across storage, network, compute, and security teams
+
+## Outcomes & Impact
+- Reduced provisioning time from weeks to hours
+- Achieved zero-touch deployment for standard configurations
+- Eliminated manual configuration errors
+- Enabled self-service capabilities for enterprise customers
+- Successfully deployed for premier customer (major postal service)
+- Created scalable platform supporting business growth
+- Improved operational efficiency by 80%
+- Established new standard for enterprise service delivery
+
+# Digital Publishing Platform Transformation
+
+Led technical transformation for major European entertainment publisher, building automated content management system that drove business expansion from digital-only to full print licensing rights.
+
+## Industry/Sector
+Media & Entertainment / Digital Publishing
+
+## Context & Challenge
+- Publisher operating with digital-only license seeking growth
+- Manual content processing creating bottlenecks
+- Complex multi-format content requirements (images, videos, articles)
+- Need for robust content protection and monetization
+- Editorial teams struggling with inefficient workflows
+- Competitive pressure in premium content market
+
+## Scope & Solution
+- Custom content management system development featuring:
+  - Automated daily content import from FTP sources
+  - Multi-format processing (images, videos, XML)
+  - Intelligent content transformation pipeline
+  - Dynamic image resizing and optimization
+  - Automated watermarking for content protection
+- Micro-payment integration enabling:
+  - Flexible content monetization
+  - Premium content access control
+  - Subscriber management
+  - Transaction processing
+- Editorial workflow automation
+- Content protection framework
+- Cross-platform publishing capabilities
+
+## Role & Contributions
+- Led architecture design as technical product owner
+- Built end-to-end content automation pipeline
+- Designed content protection strategies
+- Implemented payment processing systems
+- Collaborated closely with editorial teams to optimize workflows
+- Created scalable infrastructure for business growth
+- Managed technical product roadmap
+- Established content quality standards
+
+## Outcomes & Impact
+- Platform success enabled acquisition of print publishing rights
+- Print license secured from competitor due to superior digital execution
+- Transformed from digital-only to integrated online + print publisher
+- Established new dedicated publishing entity
+- Dramatically improved content processing efficiency
+- Enhanced editorial productivity through automation
+- Created sustainable competitive advantage
+- Validated digital-first publishing strategy
 
 # Airline Data Sync Automation
 
@@ -869,8 +977,6 @@ Consumer Goods
 - Stronger ecosystem alignment
 - Foundation for targeted growth
 
-I'll create a revised project entry with a better title and without mentioning GameChanger®.
-
 # Public Affairs Strategic Defense System
 
 Developed AI-powered prototype enabling beverage industry corporate affairs teams to proactively shape policy environments and counter narratives threatening commercial freedoms.
@@ -911,8 +1017,6 @@ Beverage Industry / Public Affairs
 - Reduced campaign development time by 60%
 - Created scalable template for global deployment
 - Established clear ROI methodology for public affairs
-
-Based on the materials and your instructions, I'll create a project portfolio entry for the AI Bootcamp simulation tool in the same style as your other projects.
 
 # AI-Powered Training Simulation
 
@@ -1055,3 +1159,262 @@ Public Sector / Government Digital Transformation
 - Established sustainable in-house AI development capabilities
 - Delivered working prototypes for immediate service improvements
 - Built foundation for ongoing digital transformation initiatives
+
+# Maritime Plastic Waste AI Platform
+
+Developing AI-powered marketplace assistant for international development initiative tackling ASEAN marine plastic pollution through intelligent matchmaking of projects with financing opportunities.
+
+## Industry/Sector
+Environmental Technology / International Development
+
+## Context & Challenge
+- Major international development project addressing maritime plastic waste crisis in ASEAN region
+- Complex ecosystem requiring connection between plastic waste projects and potential investors
+- Need for intelligent AI assistant to navigate technical, financial, and environmental complexities
+- Multi-stakeholder environment including development banks, implementing partners, and regional experts
+- Challenging procurement constraints requiring phased approach with Go/No-Go decision gates
+- Limited existing training data on plastic circularity, EPR policies, and regional regulations
+
+## Scope & Solution
+- Comprehensive feasibility study for AI-powered marketplace assistant featuring:
+  - Technical architecture evaluation for AI integration
+  - AI engine options assessment (chatbot vs intelligent agent capabilities)
+  - Data source identification across plastic circularity knowledge domains
+  - Multi-language support requirements for ASEAN markets
+  - Compliance framework for data privacy across jurisdictions
+  - Cost-benefit analysis and ROI projections
+- Phased implementation roadmap with clear milestones:
+  - Feasibility study with decision criteria and risk matrix
+  - Training material development strategy
+  - MVP specifications
+  - Pilot deployment framework
+  - Production readiness criteria
+- Stakeholder alignment across funding organizations, implementing partners, and domain experts
+
+## Role & Contributions
+- Led end-to-end feasibility study as AI Expert under compressed timeline
+- Conducted stakeholder interviews across funding bodies, implementation teams, and technical experts
+- Developed comprehensive decision criteria and risk assessment frameworks
+- Designed AI architecture options balancing chatbot simplicity with agent sophistication
+- Created data sourcing strategy for fragmented knowledge domains
+- Established governance model for multi-party collaboration
+- Managed complex procurement navigation and contract structuring
+- Built consensus across diverse stakeholder groups with competing priorities
+
+## Outcomes & Impact
+- Successfully delivered feasibility study securing approval for subsequent phases
+- Identified viable AI implementation path despite data fragmentation challenges
+- Established clear Go/No-Go decision gates with measurable criteria
+- Created foundation for significant environmental impact investment facilitation
+- Developed reusable framework for similar international development AI projects
+- Positioned project for successful full-scale implementation
+- Enhanced capability for AI-powered development initiatives in environmental sector
+
+# ISV Enterprise Software Containerization
+
+Transformed complex enterprise software deployment for global data security vendor through containerization, reducing multi-day consultant installations to instant deployments for demonstrations and training.
+
+## Industry/Sector
+Software / Data Security & Integration
+
+## Context & Challenge
+- Complex enterprise software requiring extensive consultant involvement for deployment
+- Installation process taking days to weeks, limiting sales opportunities
+- High barrier to entry for potential customers wanting to evaluate
+- Expensive pre-sales process requiring dedicated consultant resources
+- Training hampered by complex setup requirements
+- Business model disrupted by installation complexity
+- Lost opportunities due to deployment friction
+
+## Scope & Solution
+- Containerized platform architecture encompassing:
+  - Complete operating system environment
+  - All prerequisite software and dependencies
+  - Database systems and configurations
+  - Background services and daemons
+  - Desktop development environments
+  - Pre-configured integrations
+- Non-traditional container approach prioritizing:
+  - Functionality over container size optimization
+  - Single-command deployment capability
+  - Full feature parity with production installations
+  - Instant provisioning of multiple instances
+- Use case enablement for:
+  - Proof of concepts
+  - Customer demonstrations
+  - Technical training programs
+  - Development and testing
+  - Partner enablement
+
+## Role & Contributions
+- Architected containerization strategy for complex enterprise software
+- Developed custom container build process
+- Solved technical challenges of packaging desktop environments
+- Created deployment automation framework
+- Established versioning and distribution system
+- Documented deployment patterns for global teams
+- Enabled worldwide adoption through training and support
+
+## Outcomes & Impact
+- Reduced deployment time from weeks to minutes
+- Eliminated consultant dependency for non-production deployments
+- Accelerated sales cycles through instant POC capability
+- Enabled global training programs without infrastructure constraints
+- Improved product accessibility for evaluation
+- Created competitive advantage in pre-sales process
+- Achieved worldwide adoption across all regions
+- Transformed business model constraints into growth opportunities
+
+# Healthcare IT Consolidation
+
+Served as lead consultant for private cloud infrastructure deal enabling major Southeast Asian healthcare network to consolidate distributed IT systems across 22 hospitals.
+
+## Industry/Sector
+Healthcare / Hospital Networks
+
+## Context & Challenge
+- Large hospital network operating with distributed IT model across locations
+- Each facility maintaining separate IT infrastructure and systems
+- Escalating operational costs from duplicated resources
+- Increasing complexity in support and maintenance
+- Aggressive expansion strategy requiring scalable IT foundation
+- Need for standardized service delivery across network
+- Security and compliance requirements across multiple sites
+
+## Scope & Solution
+- End-to-end private cloud infrastructure featuring:
+  - Centralized compute and storage resources
+  - Production and disaster recovery environments
+  - Unified management platform across all facilities
+  - Secure network connectivity between sites
+- Integrated solution stack including:
+  - Flex System infrastructure with 16 compute nodes
+  - Enterprise storage with replication capabilities
+  - Comprehensive backup and recovery systems
+  - Network security and bandwidth management
+  - Virtual desktop infrastructure for clinical applications
+- Cloud service delivery model enabling:
+  - Standardized IT services across all hospitals
+  - Rapid provisioning for new facilities
+  - Centralized management and support
+
+## Role & Contributions
+- Led technical consulting for competitive bid process
+- Designed solution architecture meeting complex requirements
+- Conducted stakeholder workshops across hospital network
+- Created technical proposal and implementation roadmap
+- Positioned solution against competing vendors
+- Managed technical aspects of sales cycle
+- Developed business case for infrastructure consolidation
+
+## Outcomes & Impact
+- Won first-of-a-kind, competitive bid against major industry players
+- Delivered comprehensive solution design
+- Established technical foundation for IT consolidation
+- Enabled future cost reduction through centralization
+- Created scalable platform architecture
+- Provided clear implementation roadmap
+- Set foundation for standardized service delivery
+- Positioned client for successful digital transformation
+
+# Telco Service Automation Platform
+
+Designed service automation strategy for forward-thinking Thai telecommunications provider, enabling rapid deployment of configurable customer services to compete with digital disruptors.
+
+## Industry/Sector
+Telecommunications / Service Provider
+
+## Context & Challenge
+- Traditional telco revenue streams threatened by messaging apps and OTT services
+- Manual service provisioning limiting speed to market
+- Need to differentiate through innovation and agility
+- Pressure to increase margins while improving customer experience
+- Complex legacy systems constraining service flexibility
+- Competitive pressure from digital-native providers
+- Limited ability to offer personalized service packages
+
+## Scope & Solution
+- Service automation platform architecture featuring:
+  - Customer-facing service provisioning automation
+  - Configurable service templates and packages
+  - Intelligent routing with early AI capabilities
+  - Open source automation framework
+  - Linux-based orchestration layer
+  - API-driven service catalog
+- Capabilities enabling:
+  - Rapid service deployment and modification
+  - Custom service bundle creation
+  - Dynamic pricing and configuration
+  - Automated fulfillment workflows
+  - Self-service customer portals
+  - Real-time service activation
+
+## Role & Contributions
+- Led technical consulting engagement as principal architect
+- Positioned automation strategy aligning with digital transformation goals
+- Built trusted advisor relationship with client technical teams
+- Designed open source-based automation approach
+- Conducted extensive workshops with stakeholder groups
+- Created technical roadmap for service automation
+- Demonstrated partner approach beyond typical vendor relationship
+- Guided technology selection favoring open standards
+
+## Outcomes & Impact
+- Successfully positioned telco as regional innovation leader
+- Designed foundation for accelerated service delivery
+- Enabled new revenue streams through service flexibility
+- Reduced service provisioning timeframes
+- Created framework for margin improvement
+- Established strategic partnership beyond transactional vendor relationship
+- Validated open source automation strategy
+- Built internal consensus for transformation approach
+
+# Telco Network Functions Virtualization
+
+Orchestrated landmark NFV platform deployment for major Singapore telecommunications provider, establishing first reference architecture in Asia for transforming physical network appliances into virtualized infrastructure.
+
+## Industry/Sector
+Telecommunications / Network Infrastructure
+
+## Context & Challenge
+- Monolithic physical network appliances from multiple vendors creating operational complexity
+- Error-prone manual processes for network function deployment
+- High costs and long lead times for hardware-based services
+- Need to digitize core network infrastructure
+- Early-stage virtualization technology requiring validation
+- Limited regional expertise in NFV implementations
+- Strategic importance for regional subsidiary operations
+
+## Scope & Solution
+- Network virtualization platform enabling:
+  - Migration from physical appliances to software-defined infrastructure
+  - Multi-vendor network function consolidation
+  - Automated deployment and orchestration
+  - Elastic scaling of network services
+  - Unified management across virtual functions
+- Phased deployment approach:
+  - Initial test and development environment
+  - Production rollout roadmap
+  - Regional expansion framework
+- Open source cloud infrastructure foundation
+- Reference architecture for Asia-Pacific region
+
+## Role & Contributions
+- Coordinated international expert resources for strategic engagement
+- Mobilized specialized teams from global headquarters
+- Championed resource allocation for small market opportunity
+- Built technical consensus among diverse stakeholder groups
+- Managed complex proof of concept execution
+- Positioned early-stage technology for enterprise adoption
+- Established regional reference architecture
+- Drove executive alignment across telco and vendor organizations
+
+## Outcomes & Impact
+- Achieved first NFV platform win in Asia-Pacific region
+- Established foundation for network infrastructure transformation
+- Created replicable model for regional subsidiaries
+- Validated virtualization approach for telco environments
+- Significant strategic win for software vendor
+- Positioned Singapore operation as innovation leader
+- Enabled future expansion across regional markets
+- Built critical reference for early-stage technology adoption
