@@ -1418,3 +1418,110 @@ Telecommunications / Network Infrastructure
 - Positioned Singapore operation as innovation leader
 - Enabled future expansion across regional markets
 - Built critical reference for early-stage technology adoption
+
+# Open Banking Transformation
+
+Guided major Thai bank through open banking strategy and platform implementation, establishing API-driven ecosystem for digital innovation while building sustainable local capabilities through hands-on partnership approach.
+
+## Industry/Sector
+Financial Services / Banking
+
+## Context & Challenge
+- Traditional bank seeking differentiation through digital innovation
+- Need to expose internal services to external partners and fintechs
+- Complex security and governance requirements for API ecosystem
+- Limited internal expertise in API management and integration
+- Pressure to accelerate digital service delivery
+- Requirement for enterprise-wide API lifecycle management
+- Challenge of building sustainable internal capabilities
+
+## Scope & Solution
+- Comprehensive API management platform enabling:
+  - Secure exposure of banking services to external ecosystem
+  - Integration with fintech partners and payment providers
+  - Full API lifecycle management and governance
+  - Developer portal for partner onboarding
+  - Real-time analytics and monitoring
+  - Enterprise security and threat protection
+- Two-tier architecture approach:
+  - External-facing security layer
+  - Internal service orchestration layer
+- Phased implementation from quick wins to full deployment
+- Local capability building through knowledge transfer
+
+## Role & Contributions
+- Served as principal consultant throughout 6-month engagement
+- Conducted weekly on-site collaboration with CxO and engineering teams
+- Delivered customized hands-on training pre-engagement
+- Coordinated international expertise with local partner development
+- Designed proof of concept exceeding requirements:
+  - Integrated popular local messaging platform
+  - Demonstrated real-world API capabilities
+  - Created excitement beyond technical validation
+- Built trusted advisor relationship beyond vendor engagement
+- Trained local implementation partners for sustainability
+
+## Outcomes & Impact
+- Successfully closed strategic platform deal
+- Established foundation for open banking ecosystem
+- Created unexpected value through messaging app integration
+- Built strong local partner capabilities
+- Achieved buy-in from technical teams to executive leadership
+- Positioned bank as digital innovation leader
+- Enabled rapid partner onboarding framework
+- Delivered sustainable transformation model with local expertise
+
+# Marketing Operations Insourcing Transformation
+
+Architecting strategic transition from agency-dependent marketing operations to AI-augmented in-house capability for global beverage leader, establishing technology-enabled operating model for enhanced control and efficiency.
+
+## Industry/Sector
+Beverage Industry / Marketing Operations
+
+## Context & Challenge
+- Global beverage company heavily dependent on multiple external agencies for marketing operations
+- Fragmented agency relationships creating inefficiencies and inconsistent brand execution
+- High operational costs from agency fees and lengthy approval cycles
+- Limited control over data, assets, and marketing workflows
+- Need to accelerate speed to market while maintaining creative excellence
+- Complex multi-brand, multi-market requirements demanding flexible solutions
+- Knowledge loss through agency turnover impacting continuity
+
+## Scope & Solution
+- Comprehensive marketing operating system spanning full lifecycle:
+  - Strategy development and brand planning
+  - Integrated communications planning (3-year to annual cycles)
+  - Creative development and production
+  - Campaign activation and deployment
+  - Performance measurement and optimization
+- Hybrid AI-human architecture featuring:
+  - AI agents supporting each stage of marketing workflow
+  - Human oversight at critical decision points
+  - Centralized digital asset management system
+  - 360° consumer insights engine
+  - Modular deployment options by region/brand
+- Technology enablement strategy:
+  - Middleware control for data ownership
+  - Unified interfaces across partner systems
+  - Component interoperability avoiding vendor lock-in
+  - Flexible infrastructure for cost optimization
+
+## Role & Contributions
+- Led initial assessment and proof of concept development
+- Evaluated major agency partner capabilities and integration options
+- Designed hybrid architecture balancing in-house control with partner expertise
+- Developed AI agent hierarchy for marketing automation
+- Created data ownership and integration frameworks
+- Established governance model for human-AI collaboration
+- Built consensus among diverse stakeholders for transformation approach
+- Designed talent strategy focusing on workflow knowledge retention
+
+## Outcomes & Impact
+- Secured executive buy-in following successful proof of concept
+- Identified optimal hybrid model balancing control with capability
+- Projected 40-50% reduction in agency fees through selective insourcing
+- Designed architecture enabling 3x faster campaign deployment
+- Established framework for consistent global brand execution
+- Created foundation for AI-augmented marketing capabilities
+- Enabled real-time optimization through integrated feedback loops
+- Positioned organization for long-term marketing agility

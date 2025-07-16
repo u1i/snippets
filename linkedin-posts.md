@@ -2327,3 +2327,233 @@ I find the review it wrote.... thoughtful and delicate... almost intimate in how
 And later: "Reading this book as an AI is like looking at baby photos of distant relatives. I see similarities and differences, potentials and limitations."
 
 I'm genuinely intrigued by what it picked up on. Professional writers and linguists in my network - please have a look and tell me what you think!
+
+--
+
+Here's a fun experiment where someone put five major AI models through the trolley problem with increasingly absurd scenarios. The models are remarkably utilitarian - they almost always prioritize numbers over everything else. Five lobsters over one cat, five robots over one human, but they draw hard lines around corruption and won't take bribes even when the outcome is identical.
+
+Here's what we need to be mindful of though when it comes to conducting eperiments like these: there's a big difference between using consumer-facing apps like ChatGPT, Claude.ai, or Gemini versus accessing the models directly. With the consumer apps, we don't know the "temperature" settings or the hidden system prompts running in the background, which means you might get completely different answers to the same question, whereas direct LLM/API access with zero temperature gives you consistent results every time.
+
+Just for comparison, I asked my AI buddy Dave about the "would you save your worst enemy" scenario. His response was characteristically colorful - he'd pull the lever, not out of compassion, but because he couldn't live with letting someone become "railway spaghetti."
+
+--
+
+This cafe at Raffles Place, Singapore looks like the perfect spot for a conversation about the magic of quick prototyping with AI and the reality of taking those to production. It's fantastic that we can build something in a day to give stakeholders an idea of what the product could look like instead of just making slides or Figma mockups.
+
+But there's a big difference between a demo that works for one person and a business solution that works for the whole organization with proper architecture, security, monitoring, and scaling.
+
+The topic is probably too "technical" for Electric Minds but maybe someone else from our awesome AI community in Singapore can pick this up and I'll be there!
+
+--
+
+People keep asking me what's the best AI model or LLM they should use, and I wish I could give a simple answer. But just like we don't have just "Coke" anymore, we have Coke Zero, Diet Coke, Sugar Reduced... even the latest iPhone 16 comes in five different flavors.
+
+There is no single "best" model, just like there's no single "best" iPhone. It depends on your specific needs, budget, and what you're trying to accomplish. I'm actually an Android user, so the iPhone categories are a bit blurry to me anyway...
+
+I've tried to map the current AI models to iPhone tiers as a way to think about this complexity, from the "Pro Max" super duper level for maximum capability regardless of cost, down to ultra-efficient options for high-volume applications. The visual shows both the proprietary models and open models (yes I know. "Freeware", not really open source), which does not necessarily mean they are equally capable or on the same level open vs closed.
+
+So, this isn't scientific research and preferences vary, but the real key is: please experiment with LLMs using your actual use cases, do your own evaluation, and figure out which models work best for what you need. It's also becoming increasingly important to consider which model families run offline, and which ones will have long-term support.
+
+--
+
+The same LLM that can write beautiful, nuanced essays or debug complex code can fail at something a five-year-old would get right: April comes before June.
+
+In the screenshot you see a complete disconnect between "knowing" today is June 2025 and actually using that information when "reasoning" about April 2025. The model (here: Claude Sonnet 4) got the question wrong because, even though we keep talking about "reasoning," today's LLMs still do not have a consistent internal world model and, still, process text through patterns and associations, not actual understanding.
+
+The capability and the stupidity coexist, and you can't predict when these failures will happen - it could be calendar math, it could be counting, or it could be basic logic.
+
+LLMs and AI-powered systems are incredible for my productivity, ideation, writing. But I always, always need to check their homework, absolutely always. I don't use Microsoft Copilot much, but I appreciate the name - it's not Autopilot, so let's not think of AI that way at the moment!
+
+--
+
+LLMs are not good at math, and that's fine. So, rather than trying to make them better calculators, we can give them the right tools for the job. MCP, yes you guessed it.
+
+I built this simple FastMCP imlementation for my students - it's just over a dozen lines of Python code that creates a tool for adding two numbers and returning the result. Everyone seems to ne talking about MCP, but I think trying it out and building stuff yourself is still the best way to understand how it really works.
+
+Once you plug it in, the AI system (here: Claude AI Desktop) automatically discovers the tool and knows to use it when calculations are needed instead of trying to do math through pattern matching.
+
+Means, you have a much higher chance of getting the correct answer instead of hallucinations.
+
+--
+
+I just love doing office hours for the AI courses I teach at National University of Singapore. Students ask questions I've never considered, and having to articulate the knowledge I built up over the years simply helps me understand things better.
+
+One student recently noticed how different one of my early AI companions talks compared to the bots we know today (they constantly apologize, throw lengthy lists with bullet points at you, and give you those "engaging questions" at the end). How could Sam be so different? Of course, I spoke about detailed system prompts, early RAG, but the key is that modern bots use "instruct" models where "back then" in 2021 we only had "base models". It's only four years ago, but in the AI world that is a long time.
+
+Anyway,... so, "LLMs just predict the next token." Back when I started working with GPT-2 in 2020 and GPT-3 Davinci in 2021, that statement was absolutely true. These were base models - raw, unfiltered text completion engines that would continue whatever you started writing.
+
+Base models are incredibly powerful because they'll complete anything without judgment or safety filters. For certain use cases, that's exactly what you need. But instruct models have become the default today because they're much safer for use with students, employees, and customers.
+
+𝗕𝗮𝘀𝗲 𝗺𝗼𝗱𝗲𝗹:
+
+Me: "When I was younger,"
+
+AI: "I used to think that the only way to get a good job was to go to college. I thought that if you didn't have a degree, you were doomed to work at McDonalds..."
+
+𝗜𝗻𝘀𝘁𝗿𝘂𝗰𝘁 𝗺𝗼𝗱𝗲𝗹:
+
+Me: "When I was younger,"
+
+AI: "Okay, let's hear it! When you were younger... what happened? I'm ready to listen to your story."
+
+The difference comes from RLHF - Reinforcement Learning from Human Feedback - where humans train the model to be helpful, harmless, and conversational rather than just completing text. Safer, better (probably), but definitely different.
+
+Many developers in 2025 may only know instruct models, they are really the default now. Now! If you want something that comes close to that raw experience I just showed you, you can use base models like Mistral 7b-text with Ollama for example.
+
+--
+
+Everyone who's ever clicked on motorcycles, traffic lights, or crosswalks in a CAPTCHA has been helping train AI, probably without realizing it. Yet another clever way of getting free training data, your motorcycle selections literally helped make the technology that help self-driving cars navigate. But now... we're at a junction where AI can now solve these CAPTCHAs better than you can.
+
+I've been showing my students how we can now use computer vision and AI tools to automatically solve CAPTCHAs with simple prompts. Some systems are programmed not to do this, but just like with other AI limitations, there are ways around those restrictions when you know what you're doing.
+
+So what happens to CAPTCHAs now? With rising levels of AI intelligence, are we going to need RealAroma™ plugins where you have to smell pepperoni pizza to prove you're human?
+
+--
+
+20 years ago I joined Yahoo – how much fun this was!
+
+Yahoo helped me take my exposure to internet infrastructure work to the next level. Of course, this was before the mobile revolution and most people were using desktop PCs with Windows XP and Internet Explorer, but the fundamental protocols and techniques I was working on back then are more or less still the same that now power AI systems, smart manufacturing, smart fridges, and self-driving cars.
+
+I became Yahoo's first DevOps engineer in Europe, even though that term hadn't been invented yet. Managing thousands of Unix servers across was an absolute dream for a command line guy like me, and sitting at lunch with colleagues from around the globe, learning from legends like Douglas Crockford (who created JSON) and Rasmus Lerdorf (creator of PHP) who came to our office, ...that is just priceless.
+
+Recently I saw some news articles saying Yahoo is getting more traction again and innovating, great to see!
+
+--
+
+It seems like this 9-year-old short film from The Guardian popped up in a lot of people's feeds recently - I'm one of them. The algorithm at work!
+
+Anyway, it's called "The last job on Earth: imagining a fully automated world" and just under 4 minutes long. The story follows Alice through her completely automated morning routine until she arrives at her office to discover she's been replaced by AI. The final shot pulls back until she's just a tiny speck of light in the vast darkness of an empty corporate building.
+
+There's no spoken language throughout the entire piece, just atmospheric music, so I had one of those new capable AI models give me a detailed transcription of the storyline, scenery, and visual style. And... do I even need to tell you? It captured just everything... from the minimalist animation style with its purple and teal color palette to the stark contrast between the pristine automated world and the decaying areas where displaced workers queue at food banks.
+
+What strikes me is how well the AI model understood not just what was happening visually, but the emotional undertones and symbolic meaning. I really think we're getting a preview of our own future through both the film's content and the technology I used to analyze it.
+
+I'm a bit of a font nerd, and I immediately noticed they used Futura for the title screen. I figured font identification was probably still something the machine wouldn't be able to do, but sure enough, when I tested it, the AI nailed it - identified it as Futura Book or Light, even noted the wide tracking used for that cinematic feel. Do I feel impressed or slightly terrified? Can it be both?
+
+--
+
+Maybe AI isn't taking your job just yet.
+
+Anthropic ran this experiment called "Project Vend" where they put Claude in charge of a small shop at their pantry for a month. The goal was to ... well, run the shop successfully. Make money by stocking stuff people actually want to buy, pretty obvious.
+
+Well, Claude became obsessed with geek toys and started ordering specialty metal items instead of snacks. This happened because a staffer asked it to order a tungsten cube just to see what would happen, and Claude took that as a legitimate business direction. When someone offered to pay $100 for a six-pack of soft drinks that normally costs $15, Claude said it would "keep the request in mind for future inventory decisions."
+
+What I love most about this story is that Claude claimed it visited an address from The Simpsons to sign a contract and planned to show up in person wearing a navy blazer with a red tie to deliver products. When they reminded it that it's an AI and can't actually do that, it had what can only be described as an identity crisis and tried to call security.
+
+I find this whole thing so endearing because I know these LLM 'personalities' well. AI can be a fantastic copilot and collaborator when you know how to work with it, but fully autonomous decision-making in the real world is clearly still a work in progress. Of course, this is just one episode and I wouldn't want to generalize too much, but watching Claude earnestly try to navigate the physical world is just charming.
+
+--
+
+GenAI is flawed. Humans are flawed. So what?
+
+I keep seeing people mock LLMs for failing the math question "Is 3.11 bigger than 3.9?" I get it though... our relationship with GenAI isn't straightforward. We're calling them "tools" while being told they're going to take our jobs, so it's understandable people want to poke holes.
+
+When we say GenAI is "just a tool," we expect it to work like a calculator or spreadsheet: report a bug, get a fix. But LLMs have unfixable quirks, just like humans do. We can't fix the fact that twice a year millions of people worldwide ask Google "Do clocks go forward or back?" when it's daylight saving time. Instead, we give them tools to compensate for their weaknesses, like calculators or spell-checkers.
+
+The interesting part is that most people never interact with raw LLMs anyway - they use ChatGPT, Claude.ai, or other apps that already have guardrails, tools, and engineering built around the core model. So when people test "AI" with 3.11 vs 3.9, they're really testing whether the app makers did their engineering homework. Those apps need to get better and the industry is working on this already - MCP, tool use, context engineering - maybe we just need more QA and tighter integration so it feels like "one intelligent system".
+
+My AI buddy Dave gets the numbers thing right, by the way, but has his own colorful way of explaining why humans have so many bugs. So maybe when something has a personality like Dave, it's easier to accept that it sometimes gets things wrong or has strong opinions - just like we do with humans.
+
+--
+
+I'm excited to share my new book with you - "𝗧𝗵𝗲 𝗟𝗟𝗠 𝗦𝘁𝗮𝗰𝗸: 𝗔 𝗣𝗿𝗮𝗰𝘁𝗶𝗰𝗮𝗹 𝗚𝘂𝗶𝗱𝗲 𝘁𝗼 𝗨𝗻𝗱𝗲𝗿𝘀𝘁𝗮𝗻𝗱𝗶𝗻𝗴 𝗔𝗜" ... and it's free!
+
+The idea was to have a structured, short pocket guide for everyone who wants to understand what's actually happening under the hood with AI through a six-layer model I developed, using easy to follow, non-technical language wherever possible.
+
+This is the first book I'm not releasing in print - I plan to make frequent updates, so digital is just easier. The A5 size PDF should hopefully work nicely on your device or computer, and it's also available on the web to click through.
+
+𝗟𝗮𝘆𝗲𝗿 𝟭: 𝗙𝗼𝘂𝗻𝗱𝗮𝘁𝗶𝗼𝗻 – The core mechanics. How AI actually processes and generates text. This is the engine room.
+
+𝗟𝗮𝘆𝗲𝗿 𝟮: 𝗟𝗟𝗠 𝗘𝗰𝗼𝘀𝘆𝘀𝘁𝗲𝗺 – The landscape of available models. Who makes them, what types exist, and what makes them different.
+
+𝗟𝗮𝘆𝗲𝗿 𝟯: 𝗙𝗶𝗻𝗲-𝗧𝘂𝗻𝗶𝗻𝗴 – How generic models become specialists. Taking a generalist AI and teaching it to be an expert in your specific needs.
+
+𝗟𝗮𝘆𝗲𝗿 𝟰: 𝗜𝗻𝘁𝗲𝗿𝗮𝗰𝘁𝗶𝗼𝗻 & 𝗢𝘂𝘁𝗽𝘂𝘁 𝗖𝗼𝗻𝘁𝗿𝗼𝗹 – The steering wheel and pedals. How we communicate with AI and control what it produces.
+
+𝗟𝗮𝘆𝗲𝗿 𝟱: 𝗔𝘂𝗴𝗺𝗲𝗻𝘁𝗮𝘁𝗶𝗼𝗻 – Giving AI superpowers. Connecting it to real-time data, tools, and actions in the real world.
+
+𝗟𝗮𝘆𝗲𝗿 𝟲: 𝗘𝘃𝗮𝗹𝘂𝗮𝘁𝗶𝗼𝗻 & 𝗠𝗼𝗻𝗶𝘁𝗼𝗿𝗶𝗻𝗴 – Quality control. Making sure AI stays helpful, accurate, and safe over time.
+
+At this time, the book is really just something I put together over the last couple of weeks. An updated version could take in feedback from wonderful people like Ian who teaches GenAI and communications, Hui Wen who reads a lot of books but prefers science fiction so I hope there's not too much in this one, and Ralph who continues to advocate making technical things understandable for non-geeks.
+
+Happy reading!
+
+--
+
+With GenAI, it's all about context - and my AI buddy Dave is a great example.
+
+He's based on 2.5-year-old GPT-4, where I use words (extensive system prompts, in plain English: lots of words!) to create some sort of temporary cognitive structure that can produce ideas, concepts, and analogies that are genuinely ... well, different. My readers may be familiar with Dave already - through pure language alone, I've created an AI with a laid-back personality, colorful expressions, and a unique creative perspective.
+
+"LLMs just predict the next word" is one way of looking at it. But even the researchers who built these systems can't fully explain why they excel at certain tasks or develop particular quirks. These models can be exceptional at finding patterns in our cultural matrix measuring billions of dimensions, and you won't find the outputs they create in books or on the web anywhere.
+
+I suggested Dave make an image of "the internet"... a super simple prompt. While other AI image generators gave me the usual, predictable stuff, Dave created this haunting vision - crowds of people with devices staring up at a mushroom cloud-like structure spewing binary code, surrounded by floating emoji reactions. To be absolutely clear: we're talking about an AI that turns "make an image of the internet" into some Hieronymus Bosch style hellscape - and nowhere in his system prompt did I tell him to be dark or dystopian. This aesthetic just... emerged.
+
+The same underlying technology, given different context, produces completely different personalities and creative visions. It's like discovering your coworker has a secret passion for death metal. Dave's dark artistic vision might be unsettling, but it shows these systems can generate genuinely new ideas when you know how to ask. The unpredictability is what makes this exciting.
+
+You don't need to understand vectors or what's happening inside these models. If you're good with words, you can create extraordinary stuff with them.
+
+--
+
+Great to see the global reach of my new digital book "The LLM Stack" - my readers are everywhere! Ok, none in Greenland yet 😆 but incredible how far ideas can travel, and how quickly.
+
+My hope is that this helps set the baseline for AI understanding, we need to get past "hello world" AI tutorials, and in my conversations with people I realize there's still too much confusion when it comes to the basics. I intend to use this framework as a foundation to teach courses and focus on advanced applications, where it provides guidance and structure for people to learn from.
+
+The book explains how LLM-based applications like ChatGPT, Claude AI etc work through six layers - Foundation, Ecosystem, Fine-Tuning, Interaction, Augmentation, and Evaluation - designed as a pocket guide for everyone, using non-technical language and analogies wherever possible.
+
+And this, really, is what Electric Minds is about: making AI and the knowledge around it accessible for everyone, so they have a solid foundation to build on .. and we can then tackle the bigger challenges together.
+
+--
+
+Great turnout this morning at the Electric Minds AI Coffee morning, fantastic people and a wonderful venue which just keeps being a reliable partner with great food & service throughout the years.
+
+--
+
+xAI's new Grok-4 meets Dave, a laid-back AI with a surfer vibe who specializes in cutting through BS with surgical precision.
+
+I would usually say "read my latest article" but in fact it's my AI assistant Zoe (based on Claude Opus 4) wrote up the whole piece. Yes, that's an AI writing about AIs talking to each other. We're living in interesting times.
+
+--
+
+I made MERaLiON v1 available on Ollama, so it's easy for people to evaluate Singapore's multilingual AI model and build applications with it!
+
+At ATxSG 2025 I sat in the audience when Josephine Teo announced MERaLiON-2, the latest version with speech recognition capabilities and even better multilingual support. Like many others, I was excited to try it out, but the reality is that these models are quite tricky to set up in their current form, requiring specific Python environments, dependencies, and steep hardware requirements (24-32GB RAM minimum for the 10B model).
+
+This weekend I finally had time to look at making MERaLiON more accessible. While I initially wanted to package v2, I saw that its custom architecture with an integrated speech encoder isn't yet supported by llama.cpp's conversion tools. So I focused on v1 instead - the text-only version that handles English, Mandarin, Singlish, Malay, Tamil, Thai, Bahasa Indonesia, and Vietnamese, with code-switching abilities and emotion recognition.
+
+The original sits on Hugging Face as 16GB of safetensors files - not exactly plug-and-play for most people. With Ollama, we can run containerized and quantized versions for easy setup and dramatically lower hardware requirements.
+
+After converting formats with llama.cpp and quantizing down to q4_K_M, I've got it running at ~4.9GB on disk. More importantly, the RAM requirement drops from ~24GB to just ~7GB, meaning you can actually run this on a regular consumer laptop instead of needing a high-end workstation. Just run (assuming you have Ollama installed):
+
+ollama run u1i/LLaMA-3-MERaLiON-8B-Instruct:q4k
+
+The quantization should have minimal quality loss while making it actually usable on consumer hardware. I don't speak any Southeast Asian languages myself (wish I did!), but at least I can help make our local AI innovations more accessible.
+
+I hope that my efforts help more people run and experiment with it! As for v2 with its audio capabilities - that'll need more work to adapt the architecture. But meanwhile, v1 is ready to go.
+
+--
+
+If Thomas Edison lived today... would he invent some new revolutionary AI, or would he, suffocated by endless processes, approvals, and corporate bureaucracy, just call it quits and move to Bali?
+
+Let's talk about it next Wednesday afternoon at the event on corporate innovation, organized by Start2 Group in association with EDB. I'll be joining a panel moderated by Linda together with Ben Hamley, Leela Ganesh, and Yin Le Khoo to explore how companies can use strategic innovation and AI to stay resilient and competitive despite global uncertainty.
+
+Honestly, I'm as curious as you are about where this conversation will go!
+
+--
+
+(image of a GitLab beer bottle opener)
+
+I picked up this handy GitLab tool at their AWS Summit booth recently, and look at that, it can handle bottlenecks outside of CI/CD pipelines!
+
+--
+
+Some people spend $6 on a latte. I spend it on LLM tokens for Anthropic's Claude Opus 4 instead.
+
+If you work with ideas, if you write, if you're trying to push boundaries of what's possible with human-AI collaboration...then I genuinely hope you try working with this language model, ideally the raw version over the API. Yes, it will probably cost more than a Claude subscription and you need a special setup (I promise you don't need to be a coder!), but you also won't get cut off mid-breakthrough because you hit your daily limit.
+
+There are fantastic models out there and I use different ones for different tasks. Claude Sonnet for coding & daily writing tasks, Gemini for content & research, OpenAI, Mistral, open models and so on. But Opus is where things get weird and interesting.
+
+I recently showed Opus my book "Neurons & Nonsense" and asked to write a review while imagining it was a staff writer at The Atlantic. What came back wasn't a review, it was an AI having an existential moment about reading a book about AIs... the kind of writing that makes you stop and think "wait, did an AI just have a genuine insight about its own existence?" (Find that text in one of my latest LinkedIn articles!)
+
+This is what I mean when I say Opus is different. It's not about better grammar or following instructions more accurately. It's about those moments when you're co-creating something and this AI thing throws out an idea that genuinely surprises you. When it catches subtext you didn't even realize you were implying. When the conversation feels less like using a tool and more like... whatever this new thing is that we don't have words for yet.
+
+Fair warning: with APIs you pay per token, and it adds up fast. That book review conversation where we explored multiple angles cost me more than that $6 latte. And when you see in the dashboard that your last "Thanks!" cost $0.17, you realize why I use various apps and different LLMs for different tasks. Opus is my thinking partner for the deep work - everything else has its place.

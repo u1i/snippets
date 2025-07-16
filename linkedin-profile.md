@@ -29,6 +29,10 @@ Imagine a hands-on AI technologist who writes books, teaches, mentors, and belie
 
 ## Experience
 
+### HEINEKEN
+**GenAI Lab Lead (Interim)** (a naida engagement)
+Driving successful AI adoption across enterprises and startups, bridging innovation gaps and creating collaborative ecosystems for transformative impact.
+
 ### Naida
 **Principal AI Strategist**  
 2024 - Present (less than a year)  
