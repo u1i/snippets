@@ -1525,3 +1525,59 @@ Beverage Industry / Marketing Operations
 - Created foundation for AI-augmented marketing capabilities
 - Enabled real-time optimization through integrated feedback loops
 - Positioned organization for long-term marketing agility
+
+# IT Reputation Transformation & Innovation Showcase
+
+Transformed perception of technology organization at global manufacturing leader through strategic storytelling, community building, and innovation showcasing, establishing IT as business enabler rather than cost center.
+
+## Industry/Sector
+Manufacturing / Technology Leadership
+
+## Context & Challenge
+- IT department perceived as traditional support function rather than innovation driver
+- Limited visibility of technology impact on business outcomes
+- Talented engineers working on transformative projects without recognition
+- Extremely private company culture resistant to external engagement
+- No established channels for showcasing technology achievements
+- Team members lacking confidence in business impact of their work
+- Missed opportunities for talent attraction through community engagement
+
+## Scope & Solution
+- Multi-channel innovation communication strategy:
+  - Executive keynote production for major cloud provider event
+  - Monthly business newsletter highlighting IT-driven success stories
+  - Global all-hands featuring team members presenting achievements
+  - First-ever public technology meetup at company facilities
+- Strategic narrative development focusing on:
+  - Business impact metrics rather than technical details
+  - AI and digital transformation capabilities
+  - Real-world manufacturing innovations
+  - Team member success stories
+- Community engagement program breaking traditional boundaries
+
+## Role & Contributions
+- Served as unofficial chief of staff driving IT visibility initiatives
+- Produced 7-minute CTO keynote requiring 7 weeks of preparation:
+  - Story development and narrative arc
+  - Multi-stakeholder negotiations (comms, legal, PR)
+  - Cloud provider coordination
+  - Executive rehearsals and refinement
+- Created and managed monthly IT success newsletter:
+  - Curated high-impact project stories
+  - Translated technical achievements to business value
+  - Established metrics-driven narrative framework
+- Orchestrated global all-hands innovation showcases
+- Pioneered external community engagement:
+  - Navigated internal resistance through individual stakeholder alignment
+  - Organized 100+ person data science meetup
+  - Facilitated team presentations to external audience
+
+## Outcomes & Impact
+- Dramatically improved IT department reputation across business
+- Enhanced team confidence through visible recognition
+- Successfully hosted first public tech event in company history
+- Hired multiple data scientists from community meetup
+- Established sustainable communication channels for ongoing visibility
+- Created template for technology storytelling focused on business impact
+- Built foundation for continued innovation showcasing
+- Transformed perception from cost center to strategic enabler

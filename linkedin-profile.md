@@ -23,7 +23,11 @@ AI Technologist | Ecosystem Builder | Author | Educator
 
 ## Summary
 
-Imagine a hands-on AI technologist who writes books, teaches, mentors, and believes in the power of ecosystems to drive impactful AI adoption in enterprises and startups. That's me!
+Imagine a hands-on AI technologist who codes every day, and at the same time works directly with C-level executives on their most challenging problems, hires and leads teams, writes books, and teaches that stuff at the university. That's me! You could say I live at the intersection of doing, leading, and teaching.
+
+With experience at companies like Microsoft, IBM, Yahoo!, Dyson, Heineken, BT, Société Générale, and Raffles Medical, I help companies adopt AI for real impact while building the communities and ecosystems needed to sustain it.
+
+I specialize in taking promising concepts from 0 to 1: creating the teams, partnerships, and initial implementations that turn ideas into reality.
 
 ---
 
